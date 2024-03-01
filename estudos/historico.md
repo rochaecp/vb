@@ -13,5 +13,5 @@
     - Visual Basic 2010 (VB 10.0)
         - Juntamente com o Visual Basic 2010 obtemos o .NET Framework 4.
     - ...
+    - Visual Basic 16 (2019)
     - Visual Basic 16.9 / Visual Studio 2019 Versão 16.9 - https://learn.microsoft.com/pt-br/dotnet/visual-basic/whats-new/#visual-basic-169
-    
