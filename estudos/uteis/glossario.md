@@ -25,6 +25,13 @@
 
 - É amplamente equivalente a null em C#, com a flexibilidade adicional de inicializar variáveis de tipos de valor ao seu padrão.
 
+## Property 
+
+- É equivalente a uma propriedade em C#.
+- o compilador automaticamente cria métodos Get (para leitura) e Set (para escrita), que permitem acessar e modificar o valor da propriedade.
+- Ex. (vb): Public Property TaskName() As String
+- Ex. (c#): public string TaskName { get; set; }
+
 ## ReadOnly 
 
 - Usado para definir propriedades ou campos que podem ser atribuídos um valor apenas uma vez, geralmente durante a inicialização ou no construtor da classe. Após isso, o valor não pode ser alterado.
