@@ -9,6 +9,7 @@
 
 - [Conceitos Gerais](estudos/introducao/conceitos.md)
 - [Strings](estudos/introducao/strings.md)
+- [With](estudos/introducao/with.md)
 <!--
 - [Regions](estudos/introducao/region.md)
 - [Comentários](estudos/introducao/comentarios.md)
@@ -26,6 +27,7 @@
 
 #### Comandos Condicionais e de Repetição
 
+- [Alternativas para o Operador Ternário](estudos/comandos_condic_repetic/alternativas_oper_ternario.md)
 <!--
 - [If ... Else](estudos/comandos_condic_repetic/if_else.md)
 - [Switch](estudos/comandos_condic_repetic/switch.md)
@@ -49,8 +51,8 @@
 
 - [Classes e Objetos](estudos/poo/classes-objetos.md)
 - [Propriedades](estudos/poo/propriedades.md)
-<!-- 
 - [Modificadores de Acesso](estudos/poo/modificadores_acesso.md)
+<!-- 
 - [Métodos](estudos/poo/metodos.md)
 - [Métodos de Extensão](estudos/poo/metodos_extensao.md)
 - [Encapsulamento](estudos/poo/encapsulamento.md)
@@ -67,6 +69,7 @@
 - [Serviços Windows](estudos/outros/servicos_windows.md)
 <!-- 
 - [Exceções](estudos/outros/excecoes.md)
+- Serialização com JavaScriptSerializer
 - [Arquivos](estudos/outros/arquivos.md)
 - [LINQ](estudos/outros/linq.md)
 - [Expressões Lambda](estudos/outros/expressoes_lambda.md)

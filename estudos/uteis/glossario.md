@@ -1,6 +1,13 @@
+## And
+
+- Avalia ambas as condições, independentemente do resultado da primeira.
+
 ## AndAlso
 
-- 
+- É um operador lógico de curto-circuito em VB.NET que realiza uma operação de e lógico entre duas expressões booleanas.
+- Ele avalia as condições da esquerda para a direita e retorna True somente se ambas as condições forem verdadeiras.
+- O termo curto-circuito significa que, se a primeira condição for False, a segunda condição não é avaliada, pois o resultado já é garantido como False.
+- AndAlso é preferível quando a segunda condição é complexa, custosa, ou desnecessária se a primeira já for suficiente para determinar o resultado.
 
 ## ByRef
 
@@ -22,6 +29,13 @@
 
 - Uma Function é um método que executa um bloco de código e retorna um valor.
 - O tipo do valor de retorno é especificado após a palavra-chave As.
+
+## IIf
+
+- É uma função em VB.NET que realiza uma operação condicional semelhante ao operador ternário (? :) de outras linguagens, como C#. 
+- Sintaxe: ```IIf(condição, valorSeVerdadeiro, valorSeFalso)```
+- IIf sempre avalia ambos os valores (valorSeVerdadeiro e valorSeFalso), independentemente do resultado da condição, o que pode ser menos eficiente se um dos valores envolver uma operação complexa.
+- Para evitar a avaliação desnecessária, If condicional é geralmente preferido para operações mais complexas.
 
 ## Is
 
@@ -53,9 +67,16 @@
 
 - É amplamente equivalente a null em C#, com a flexibilidade adicional de inicializar variáveis de tipos de valor ao seu padrão.
 
+## Of
+
+- O Of em VB.NET é utilizado principalmente em dois contextos: genéricos e conversões de tipos específicos, especialmente na desserialização e em métodos que aceitam tipos parametrizados.
+- O Of é usado para definir quais tipos um genérico irá utilizar, oferecendo flexibilidade para o código funcionar com vários tipos de dados.
+
 ## Or
 
 - Operador lógico que avalia ambas as condições, independentemente do resultado da primeira.
+- Of é usado em contextos genéricos para especificar tipos de dados a serem utilizados.
+- Permite flexibilidade na criação de classes, métodos, e interfaces que podem ser reutilizadas com diferentes tipos de dados.
 
 ## OrElse
 
@@ -93,3 +114,9 @@
 
 - A tag ```<summary>``` é usada para criar um resumo descritivo sobre o elemento de código (como um método ou propriedade) ao qual está anexado. É uma convenção de documentação usada amplamente em VB.NET e outras linguagens como C#.
 - Quando o desenvolvedor passa o mouse sobre o método ou propriedade no editor de código, esse comentário é exibido, ajudando a fornecer informações contextuais.
+
+## With
+
+- A instrução With...End With é uma estrutura que permite executar múltiplas operações em um mesmo objeto sem precisar repetir o nome desse objeto a cada linha.
+- É uma ferramenta útil para simplificar o código, torná-lo mais legível e fácil de manter, especialmente quando várias propriedades ou métodos de um único objeto são acessados em sequência.
+- A instrução With começa um bloco de código em que todas as instruções que começam com um ponto (.) referem-se ao objeto especificado no With.
