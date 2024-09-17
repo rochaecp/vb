@@ -47,9 +47,9 @@
 
 #### POO
 
+- [Classes e Objetos](estudos/poo/classes-objetos.md)
 - [Propriedades](estudos/poo/propriedades.md)
 <!-- 
-- [Classes e Objetos](estudos/poo/classes-objetos.md)
 - [Modificadores de Acesso](estudos/poo/modificadores_acesso.md)
 - [Métodos](estudos/poo/metodos.md)
 - [Métodos de Extensão](estudos/poo/metodos_extensao.md)

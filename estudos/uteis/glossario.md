@@ -1,3 +1,7 @@
+## AndAlso
+
+- 
+
 ## ByRef
 
 - Modificador de parâmetros que indica que indica que o argumento é passado por referência.
@@ -34,7 +38,12 @@
 
 ## Module
 
-- 
+- É uma estrutura que agrupa código, como métodos, variáveis, e constantes, que podem ser acessados globalmente sem a necessidade de instanciar um objeto.
+- Módulos são semelhantes a classes, mas com algumas diferenças importantes.
+- É um contêiner para membros estáticos, que podem ser funções (Sub), métodos (Function), variáveis, e outras estruturas de código que são compartilhadas em todo o programa.
+- Acesso Global: Tudo dentro de um Module é acessível diretamente sem criar uma instância do módulo, funcionando como se os membros fossem Shared (estáticos).
+- Uso Comum: Utilizado para agrupar funções auxiliares, constantes, e variáveis que são usadas em vários lugares do código.
+- Em C#, não existe exatamente um equivalente direto ao Module, mas a funcionalidade pode ser replicada usando classes estáticas (static class). 
 
 ## MustOverride
 
@@ -43,6 +52,17 @@
 ## Nothing 
 
 - É amplamente equivalente a null em C#, com a flexibilidade adicional de inicializar variáveis de tipos de valor ao seu padrão.
+
+## Or
+
+- Operador lógico que avalia ambas as condições, independentemente do resultado da primeira.
+
+## OrElse
+
+- É um operador lógico em VB.NET que realiza uma operação de ou lógico curto-circuito entre duas expressões booleanas.
+- Ele é utilizado para avaliar duas condições e retorna True se pelo menos uma das condições for verdadeira.
+- O termo curto-circuito significa que, se a primeira condição for True, a segunda condição não é avaliada, porque o resultado já é garantido como True.
+- OrElse é preferível quando a segunda condição é complexa ou desnecessária caso a primeira já seja suficiente.
 
 ## Property 
 
