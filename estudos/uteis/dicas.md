@@ -16,6 +16,12 @@
 - Embora não seja obrigatório, é considerado uma boa prática nomear o arquivo de acordo com o nome da classe principal que ele contém. 
 - Um único arquivo pode conter múltiplas classes, módulos, estruturas, ou interfaces. O nome do arquivo não precisa refletir todos os tipos que ele contém.
 
+## Referências
+
+- No VB.NET, objetos são passados por referência por padrão
+- Um objeto é uma instância de uma classe, e classes são tipos por referência no .NET.
+- Para um tipo de valor (como um Integer ou Boolean), uma cópia é passada por padrão, a menos que seja explicitamente passada por referência usando a palavra-chave ByRef.
+
 ## Summary
 
 - A tag ```<summary>``` é usada para criar um resumo descritivo sobre o elemento de código (como um método ou propriedade) ao qual está anexado. É uma convenção de documentação usada amplamente em VB.NET e outras linguagens como C#.
