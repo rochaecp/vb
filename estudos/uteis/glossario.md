@@ -85,6 +85,11 @@
 - O termo curto-circuito significa que, se a primeira condição for True, a segunda condição não é avaliada, porque o resultado já é garantido como True.
 - OrElse é preferível quando a segunda condição é complexa ou desnecessária caso a primeira já seja suficiente.
 
+## Overrides
+
+- O modificador Overrides em VB.NET é usado para indicar que um método, propriedade ou evento em uma classe está sobrescrevendo (substituindo) uma implementação de uma classe base.
+- Quando uma classe herda de outra, ela pode "herdar" métodos e propriedades, e o Overrides permite que a classe derivada forneça sua própria implementação para esses membros herdados.
+
 ## Property 
 
 - É equivalente a uma propriedade em C#.

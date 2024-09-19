@@ -17,7 +17,7 @@
 - [Constantes](estudos/introducao/constantes.md)
 - [Variáveis](estudos/introducao/variaveis.md)
 - [Operadores](estudos/introducao/operadores.md)
-- [Casting](estudos/introducao/casting.md)
+- [Casting](estudos/introducao/casting.md) - incluir DirectCast
 - [Console - Leitura](estudos/introducao/console-leitura.md)
 - [Console - Escrita](estudos/introducao/console-escrita.md)
 - [Math](estudos/introducao/math.md)
@@ -50,8 +50,8 @@
 #### POO
 
 - [Classes e Objetos](estudos/poo/classes-objetos.md)
-- [Propriedades](estudos/poo/propriedades.md)
 - [Modificadores de Acesso](estudos/poo/modificadores_acesso.md)
+- [Propriedades](estudos/poo/propriedades.md)
 <!-- 
 - [Métodos](estudos/poo/metodos.md)
 - [Métodos de Extensão](estudos/poo/metodos_extensao.md)
@@ -67,11 +67,11 @@
 
 - [Timer](estudos/outros/timer.md)
 - [Serviços Windows](estudos/outros/servicos_windows.md)
+- [LINQ](estudos/outros/linq.md)
 <!-- 
 - [Exceções](estudos/outros/excecoes.md)
 - Serialização com JavaScriptSerializer
 - [Arquivos](estudos/outros/arquivos.md)
-- [LINQ](estudos/outros/linq.md)
 - [Expressões Lambda](estudos/outros/expressoes_lambda.md)
 - [Regex](estudos/outros/regex.md)
 - [Delegates](estudos/outros/delegates.md) 
