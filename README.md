@@ -46,8 +46,8 @@
 
 - [Arrays](estudos/estruturas_de_dados/arrays.md)
 <!-- 
-- [Structs](estudos/estruturas_de_dados/structs.md)
 - [Enums](estudos/estruturas_de_dados/enums.md)
+- [Structs](estudos/estruturas_de_dados/structs.md)
 - [Listas](estudos/estruturas_de_dados/listas.md)
 - [Dicionários](estudos/estruturas_de_dados/dicionarios.md)
 - [Tuplas](estudos/estruturas_de_dados/tuplas.md) 
