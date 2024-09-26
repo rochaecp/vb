@@ -43,9 +43,6 @@
 - [Continue](estudos/comandos_condic_repetic/continue.md)
 - [Alternativas para o Operador Ternário](estudos/comandos_condic_repetic/alternativas_oper_ternario.md)
 
-#### Funções e Subrotinas
-
-
 #### Estruturas de Dados
 
 - [Arrays](estudos/estruturas_de_dados/arrays.md)
