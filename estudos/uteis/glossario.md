@@ -1,3 +1,7 @@
+## AddressOf
+
+- O operador AddressOf retorna a referência para um método em VB.NET, permitindo que esse método seja passado como argumento para outros métodos ou delegados
+
 ## And
 
 - Avalia ambas as condições, independentemente do resultado da primeira.

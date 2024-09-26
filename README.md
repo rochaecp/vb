@@ -8,39 +8,49 @@
 #### Introdução
 
 - [Conceitos Gerais](estudos/introducao/conceitos.md)
+- [Regions](estudos/introducao/region.md)
+- [Comentários](estudos/introducao/comentarios.md)
+
+- - -
+
+- [Tipos de Dados](estudos/introducao/tipos.md)
+- [Variáveis](estudos/introducao/variaveis.md)
+- [Constantes](estudos/introducao/constantes.md)
+- [Operadores Aritméticos, Relacionais e Lógicos](estudos/introducao/operadores.md)
+- [Console - Leitura e Escrita](estudos/introducao/console.md)
+- [Casting](estudos/introducao/casting.md)
+
+- - -
+
 - [Strings](estudos/introducao/strings.md)
 - [With](estudos/introducao/with.md)
 <!--
-- [Regions](estudos/introducao/region.md)
-- [Comentários](estudos/introducao/comentarios.md)
-- [Tipos](estudos/introducao/tipos.md)
-- [Constantes](estudos/introducao/constantes.md)
-- [Variáveis](estudos/introducao/variaveis.md)
-- [Operadores](estudos/introducao/operadores.md)
-- [Casting](estudos/introducao/casting.md) - incluir DirectCast
-- [Console - Leitura](estudos/introducao/console-leitura.md)
-- [Console - Escrita](estudos/introducao/console-escrita.md)
 - [Math](estudos/introducao/math.md)
 - [Números Aleatórios](estudos/introducao/random.md)
-- [Datas](estudos/introducao/datas.md) 
+- [Datas](estudos/introducao/datas.md)
+- [Function (Funções)](estudos/introduao/function.md)
+- [Sub (Subrotinas)](estudos/introduao/sub.md)
+
 -->
 
 #### Comandos Condicionais e de Repetição
 
-- [Alternativas para o Operador Ternário](estudos/comandos_condic_repetic/alternativas_oper_ternario.md)
-<!--
 - [If ... Else](estudos/comandos_condic_repetic/if_else.md)
-- [Switch](estudos/comandos_condic_repetic/switch.md)
-- [While e Do ... While](estudos/comandos_condic_repetic/while.md)
-- [For e Foreach](estudos/comandos_condic_repetic/for_foreach.md)
-- [Break e Continue em comandos de repetição](estudos/comandos_condic_repetic/break_continue.md) 
--->
+- [Select ... Case (semelhante ao Switch)](estudos/comandos_condic_repetic/select_case.md)
+- [For ... Next](estudos/comandos_condic_repetic/for.md)
+- [While ... End While e Do While ... Loop](estudos/comandos_condic_repetic/while.md)
+- [Exit (Break)](estudos/comandos_condic_repetic/exit.md)
+- [Continue](estudos/comandos_condic_repetic/continue.md)
+- [Alternativas para o Operador Ternário](estudos/comandos_condic_repetic/alternativas_oper_ternario.md)
+
+#### Funções e Subrotinas
+
 
 #### Estruturas de Dados
 
 - [Arrays](estudos/estruturas_de_dados/arrays.md)
 <!-- 
- [Structs](estudos/estruturas_de_dados/structs.md)
+- [Structs](estudos/estruturas_de_dados/structs.md)
 - [Enums](estudos/estruturas_de_dados/enums.md)
 - [Listas](estudos/estruturas_de_dados/listas.md)
 - [Dicionários](estudos/estruturas_de_dados/dicionarios.md)
@@ -52,6 +62,7 @@
 - [Classes e Objetos](estudos/poo/classes-objetos.md)
 - [Modificadores de Acesso](estudos/poo/modificadores_acesso.md)
 - [Propriedades](estudos/poo/propriedades.md)
+- [Verificando se uma classe existe em um Projeto](estudos/poo/gettype.md)
 <!-- 
 - [Métodos](estudos/poo/metodos.md)
 - [Métodos de Extensão](estudos/poo/metodos_extensao.md)
@@ -68,6 +79,7 @@
 - [Timer](estudos/outros/timer.md)
 - [Serviços Windows](estudos/outros/servicos_windows.md)
 - [LINQ](estudos/outros/linq.md)
+- [Serialização de Objetos](estudos/outros/serializacao.md)
 <!-- 
 - [Exceções](estudos/outros/excecoes.md)
 - Serialização com JavaScriptSerializer
@@ -80,6 +92,3 @@
 #### Exemplos
 
 - [Olá Mundo](estudos/exemplos/ola_mundo.md)
-<!-- 
-- [Cadastro de Séries](estudos/exemplos/ex_cadastro-series.md) 
--->

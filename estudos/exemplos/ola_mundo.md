@@ -20,8 +20,12 @@ End Class
 
 #### Jeito 2
 
-- Module: Não pode ser instanciado. Os membros do módulo são acessíveis diretamente.
-- O Main é acessível globalmente e não requer modificadores adicionais.
+- Module
+    - Um módulo é uma estrutura básica de código em VB.NET, semelhante a uma classe, mas sem a necessidade de criar instâncias. É usado para organizar o código.
+    - Os membros do módulo são acessíveis diretamente.
+- Main
+    - A função Main é o ponto de entrada do seu programa. Ela é executada quando você roda o aplicativo.
+    - O Main é acessível globalmente e não requer modificadores adicionais.
 
 ~~~vb
 Public Module Program
