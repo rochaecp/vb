@@ -30,7 +30,6 @@
 - [Datas](estudos/introducao/datas.md)
 - [Function (Funções)](estudos/introduao/function.md)
 - [Sub (Subrotinas)](estudos/introduao/sub.md)
-
 -->
 
 #### Comandos Condicionais e de Repetição
