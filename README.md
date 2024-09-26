@@ -67,7 +67,7 @@
 - [Polimorfismo](estudos/poo/polimorfismo.md)
 - [Abstração](estudos/poo/abstracao.md)
 - [Interfaces](estudos/poo/interfaces.md)
-- [Classes, Atributos e Métodos Static](estudos/poo/atributos_metodos_static.md) 
+- [Classes, Atributos e Métodos Shared](estudos/poo/shared.md) 
 -->
 
 #### Outros
