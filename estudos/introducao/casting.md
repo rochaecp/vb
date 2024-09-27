@@ -3,21 +3,33 @@
 - Casting em VB.NET é o processo de converter um valor de um tipo de dado para outro. 
 - Isso é importante quando você está lidando com variáveis de diferentes tipos de dados e precisa transformá-las para realizar operações ou armazenar os valores de maneira compatível.
 - Existem dois tipos principais de casting em VB.NET:
-    - Conversão implícita: A conversão é feita automaticamente pelo compilador, sem que o programador precise indicar explicitamente.
-    - Conversão explícita: O programador indica explicitamente que deseja realizar a conversão de um tipo de dado para outro, utilizando funções de conversão.
+    - Conversão implícita
+        - A conversão é feita automaticamente pelo compilador, sem que o programador precise indicar explicitamente.
+    - Conversão explícita
+        - O programador indica explicitamente que deseja realizar a conversão de um tipo de dado para outro, utilizando funções de conversão.
 
 ## Conversão Implícita
 
 - A conversão implícita ocorre quando o VB.NET consegue realizar a conversão de forma automática e segura, sem perda de dados. 
 - Isso acontece geralmente ao converter de um tipo de dado menor para um tipo de dado maior (como Integer para Long ou Single para Double).
 
-#### Exemplo de conversão implícita
-
-- Neste exemplo, o Integer é automaticamente convertido para Long, porque o tipo Long pode armazenar todos os valores de um Integer sem perda de dados.
+#### Exemplos de conversão implícita
 
 ~~~vb
 Dim numeroInteiro As Integer = 10
 Dim numeroLong As Long = numeroInteiro  ' Conversão implícita de Integer para Long
+
+Dim numeroFloat As Single = 3.14F
+Dim numeroDouble As Double = numeroFloat  ' Conversão implícita de Single para Double
+
+Dim numeroShort As Short = 100
+Dim numeroInteiro2 As Integer = numeroShort  ' Conversão implícita de Short para Integer
+
+Dim numeroByte As Byte = 255
+Dim numeroShort2 As Short = numeroByte  ' Conversão implícita de Byte para Short
+
+Dim numeroDecimal As Decimal = 100.5D
+Dim numeroDouble2 As Double = numeroDecimal  ' Conversão implícita de Decimal para Double
 ~~~
 
 ## Conversão Explícita (Casting)
@@ -31,38 +43,84 @@ Dim numeroLong As Long = numeroInteiro  ' Conversão implícita de Integer para 
 ### Funções de Conversão
 
 - Funções de Conversão
-    - CInt(): Converte para Integer
-    - CLng(): Converte para Long
-    - CStr(): Converte para String
-    - CDbl(): Converte para Double
-    - CDec(): Converte para Decimal
     - CByte(): Converte para Byte
-    - CDate(): Converte para Date
-- Neste exemplo, a função CInt() converte o valor 10.5 para o tipo Integer. Como Integer não pode armazenar decimais, ele trunca o valor para 10.
+    - CShort: Converte para Short.
+    - CUShort: Converte para UShort.
+    - CInt(): Converte para Integer
+    - CUInt: Converte para UInteger.
+    - CLng(): Converte para Long
+    - CULng: Converte para ULong.
+    - CSng: Converte para Single.
+    - CDbl: Converte para Double.
+    - CDec: Converte para Decimal.
+    - CChar: Converte para Char.
+    - CStr(): Converte para String
+    - CDate: Converte para Date.
+    - CObj: Converte para Object.
+    - CBool: Converte para Boolean.
 
-#### Exemplo de Funções de Conversão
+#### Exemplos de Funções de Conversão
 
 ~~~vb
-Dim numeroDouble As Double = 10.5
-Dim numeroInteiro As Integer = CInt(numeroDouble)  ' Converte de Double para Integer
+' CByte(): Converte para Byte.
+Dim valorOriginal As Integer = 123
+Dim valorByte As Byte = CByte(valorOriginal)
 
-Console.WriteLine("Número Inteiro: " & numeroInteiro)  ' Resultado: 10
-~~~
+' CShort: Converte para Short.
+Dim valorOriginalShort As Integer = 32000
+Dim valorShort As Short = CShort(valorOriginalShort)
 
-#### Exemplo de Funções de Conversão (entre Tipos Numéricos e Strings)
+' CUShort: Converte para UShort.
+Dim valorOriginalUShort As Integer = 60000
+Dim valorUShort As UShort = CUShort(valorOriginalUShort)
 
-~~~vb
+' CInt(): Converte para Integer.
+Dim textoInt As String = "1234" ' Se não for numérico gera uma exceção
+Dim numeroInt As Integer = CInt(textoInt)
+
+' CUInt: Converte para UInteger.
+Dim valorOriginalUInteger As Long = 1234567890
+Dim valorUInteger As UInteger = CUInt(valorOriginalUInteger)
+
+' CLng(): Converte para Long.
+Dim valorOriginalLong As Integer = 123456789
+Dim valorLong As Long = CLng(valorOriginalLong)
+
+' CULng: Converte para ULong.
+Dim valorOriginalULong As Long = 1234567890123456789
+Dim valorULong As ULong = CULng(valorOriginalULong)
+
+' CSng: Converte para Single.
+Dim valorOriginalSingle As Double = 123.456
+Dim valorSingle As Single = CSng(valorOriginalSingle)
+
+' CDbl: Converte para Double.
+Dim valorOriginalDouble As Single = 123.456
+Dim valorDouble As Double = CDbl(valorOriginalDouble)
+
+' CDec: Converte para Decimal.
+Dim valorOriginalDecimal As Double = 12345.6789
+Dim valorDecimal As Decimal = CDec(valorOriginalDecimal)
+
+' CChar: Converte para Char.
+Dim textoChar As String = "A"
+Dim valorChar As Char = CChar(textoChar)
+
+' CStr(): Converte para String
 Dim numero As Integer = 100
-Dim texto As String = CStr(numero)  ' Converte de Integer para String
-Console.WriteLine(texto)  ' Saída: "100"
-~~~
+Dim texto As String = CStr(numero)
 
-- Atenção: Ao converter uma string para número, certifique-se de que a string realmente representa um valor numérico, ou ocorrerá uma exceção.
+' CDate: Converte para Date.
+Dim textoData As String = "01/01/2024"
+Dim valorDate As Date = CDate(textoData)
 
-~~~vb
-Dim texto As String = "1234"
-Dim numero As Integer = CInt(texto)  ' Converte de String para Integer
-Console.WriteLine(numero)  ' Saída: 1234
+' CObj: Converte para Object.
+Dim valorOriginalObj As Integer = 123
+Dim valorObject As Object = CObj(valorOriginalObj)
+
+' CBool: Converte para Boolean.
+Dim valorOriginalBool As Integer = 1
+Dim valorBoolean As Boolean = CBool(valorOriginalBool)  ' Retorna True
 ~~~
 
 ### Método DirectCast()

@@ -52,8 +52,9 @@ Dim concat As String = nome & " abcdefg"
 ~~~vb
 Dim a As Integer = 10
 Dim b As Integer = 5
-Dim c As New Object()
-Dim d As New Object()
+Dim obj1 As Object = New Object()
+Dim obj2 As Object = obj1
+Dim obj3 As Object = New Object()
 Dim e As String = "teste"
 
 'Igualdade
@@ -75,10 +76,12 @@ Console.WriteLine("a >= b: " & (a >= b)) ' Verdadeiro
 Console.WriteLine("a <= b: " & (a <= b)) ' Falso
 
 'Is: Verifica se dois objetos referem-se à mesma instância (comparação de referência)
-Console.WriteLine("c Is d: " & (c Is d)) ' Falso
+Console.WriteLine("obj1 Is obj2: " &(obj1 Is obj2)) 'Verdadeiro
+Console.WriteLine("obj1 Is obj3: " &(obj1 Is obj3)) 'Falso
 
 'IsNot: Verifica se dois objetos referem-se a instâncias diferentes (comparação de referência)
-Console.WriteLine("c IsNot d: " & (c IsNot d)) ' True
+Console.WriteLine("obj1 IsNot obj2: " & (obj1 IsNot obj2)) 'Falso
+Console.WriteLine("obj1 IsNot obj3: " & (obj1 IsNot obj3)) 'Verdadeiro
 
 'Like: Verifica se uma string corresponde a um padrão
 Console.WriteLine("e Like 'teste': " & (e Like "teste")) ' True
@@ -118,7 +121,7 @@ Console.WriteLine("x AndAlso y: " & (x AndAlso y)) ' Falso
 Console.WriteLine("x OrElse y: " & (x OrElse y)) ' Verdadeiro
 ~~~
 
-#### Exemplo de Operadores de Atribuição
+## Exemplo de Operadores de Atribuição
 
 ~~~vb
 Dim a As Integer = 10
@@ -158,7 +161,7 @@ a ^= 3
 Console.WriteLine("a ^= 3: " & a) ' a passa a ser 27 (3^3)
 ~~~
 
-#### Exemplo de Operadores de Bitwise (ou Binários)
+## Exemplo de Operadores de Bitwise (ou Binários)
 
 ~~~vb
 Dim x As Integer = 6 ' 110 em binário
@@ -183,7 +186,7 @@ Console.WriteLine("x << 1: " & (x << 1)) ' Exibe 12 (1100)
 Console.WriteLine("x >> 1: " & (x >> 1)) ' Exibe 3 (011)
 ~~~
 
-#### Exemplo de Operadores de Comparação de Tipo
+## Exemplo de Operadores de Comparação de Tipo
 
 ~~~vb
 Dim obj As Object = "Hello, world!"

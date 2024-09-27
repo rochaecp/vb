@@ -10,6 +10,7 @@
 - [Conceitos Gerais](estudos/introducao/conceitos.md)
 - [Regions](estudos/introducao/region.md)
 - [Comentários](estudos/introducao/comentarios.md)
+- [Console - Leitura e Escrita](estudos/introducao/console.md)
 
 - - -
 
@@ -17,7 +18,6 @@
 - [Variáveis](estudos/introducao/variaveis.md)
 - [Constantes](estudos/introducao/constantes.md)
 - [Operadores Aritméticos, Relacionais e Lógicos](estudos/introducao/operadores.md)
-- [Console - Leitura e Escrita](estudos/introducao/console.md)
 - [Casting](estudos/introducao/casting.md)
 
 - - -
@@ -88,3 +88,7 @@
 #### Exemplos
 
 - [Olá Mundo](estudos/exemplos/ola_mundo.md)
+
+#### Exercícios
+
+- [Exercícios](estudos/exercicios/README.md)
