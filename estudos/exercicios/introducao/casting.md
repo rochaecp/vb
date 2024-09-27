@@ -49,6 +49,12 @@
 1. **Convertendo `String` para `Integer`**
     - Receba um número digitado pelo usuário como texto, converta-o para `Integer` e exiba o valor multiplicado por 10.
 
+1. Casting de Tipos de Dados
+    - Receba uma entrada do usuário como texto, converta-a para `Integer` e exiba o resultado da multiplicação por 2.
+
+1. Convertendo `String` para `Integer`
+    - Receba um número digitado pelo usuário como texto, converta-o para `Integer` e exiba o valor multiplicado por 10.   
+
 #### CUInt()
 
 1. **Convertendo `Long` para `UInteger`**
@@ -56,12 +62,6 @@
 
 1. **Limites de `UInteger`**
     - Verifique se um número `Long` está dentro do intervalo de `UInteger` e faça a conversão para `UInteger`. Exiba o resultado.
-
-1. Casting de Tipos de Dados
-    - Receba uma entrada do usuário como texto, converta-a para `Integer` e exiba o resultado da multiplicação por 2.
-
-1. Convertendo `String` para `Integer`
-    - Receba um número digitado pelo usuário como texto, converta-o para `Integer` e exiba o valor multiplicado por 10.      
 
 #### CLng()
 

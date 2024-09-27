@@ -29,6 +29,12 @@ Dim nome As String
 Console.Write("Digite seu nome: ")
 nome = Console.ReadLine()  ' Lê a entrada do usuário e armazena na variável
 Console.WriteLine("Olá, " & nome)
+
+' Lê o valor do console como string e converte para Integer
+Dim numero As Integer = CInt(Console.ReadLine())
+
+' Lê o valor do console como string e converte para Double (deve digitar com vírgula para demarcar as casas decimais)
+Dim x As Double = CDbl(Console.ReadLine())
 ~~~
 
 #### Console.Read()
