@@ -19,14 +19,11 @@
 - [Constantes](estudos/introducao/constantes.md)
 - [Operadores Aritméticos, Relacionais e Lógicos](estudos/introducao/operadores.md)
 - [Casting](estudos/introducao/casting.md)
-
-- - -
-
 - [Strings](estudos/introducao/strings.md)
-- [With](estudos/introducao/with.md)
+
 <!--
-- [Math](estudos/introducao/math.md)
 - [Números Aleatórios](estudos/introducao/random.md)
+- [Math](estudos/introducao/math.md)
 - [Datas](estudos/introducao/datas.md)
 - [Function (Funções)](estudos/introduao/function.md)
 - [Sub (Subrotinas)](estudos/introduao/sub.md)
@@ -59,6 +56,7 @@
 - [Modificadores de Acesso](estudos/poo/modificadores_acesso.md)
 - [Propriedades](estudos/poo/propriedades.md)
 - [Verificando se uma classe existe em um Projeto](estudos/poo/gettype.md)
+- [With](estudos/poo/with.md)
 <!-- 
 - [Métodos](estudos/poo/metodos.md)
 - [Métodos de Extensão](estudos/poo/metodos_extensao.md)

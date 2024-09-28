@@ -143,9 +143,8 @@ Console.WriteLine(str)
 
 #### Exemplo
 
-- Aqui, como o valor de obj é um número, TryCast() retorna Nothing, já que não é possível converter um número diretamente para String.
-
 ~~~vb
+'Aqui, como o valor de obj é um número, TryCast() retorna Nothing, já que não é possível converter um número diretamente para String.
 Dim obj As Object = 123
 Dim str As String = TryCast(obj, String)  ' Tentativa de conversão de Object para String
 
@@ -158,7 +157,8 @@ End If
 
 ### Casting Seguro com TryParse()
 
-- Quando você precisa garantir que uma conversão de String para um tipo numérico seja segura (sem exceções), é melhor usar o método TryParse(). Ele retorna True ou False para indicar se a conversão foi bem-sucedida, e coloca o valor convertido na variável de saída.
+- Quando você precisa garantir que uma conversão de **String** para um **tipo numérico** seja segura (sem exceções), é melhor usar o método TryParse(). 
+- Ele retorna True ou False para indicar se a conversão foi bem-sucedida, e coloca o valor convertido na variável de saída.
 
 #### Exemplo com Integer.TryParse()
 
