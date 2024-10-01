@@ -21,3 +21,13 @@ For i As Integer = 10 To 1 Step -1
     Console.WriteLine("Contador: " & i)
 Next
 ~~~
+
+# Estrutura For Each...Next
+
+~~~vb
+Dim lista As New List(Of String) From {"aaa", "bbb", "ccc"}
+
+For Each item As String In lista
+    Console.Write(item & vbCrLf)
+Next
+~~~

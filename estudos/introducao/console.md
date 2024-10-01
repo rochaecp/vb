@@ -25,10 +25,7 @@ Console.Write("Digite seu nome: ")  ' Exibe o texto sem pular de linha
 - Lê uma linha de texto digitada pelo usuário até que ele pressione a tecla Enter.
 
 ~~~vb
-Dim nome As String
-Console.Write("Digite seu nome: ")
-nome = Console.ReadLine()  ' Lê a entrada do usuário e armazena na variável
-Console.WriteLine("Olá, " & nome)
+Dim nome As String = Console.ReadLine()  ' Lê a entrada do usuário e armazena na variável nome
 
 ' Lê o valor do console como string e converte para Integer
 Dim numero As Integer = CInt(Console.ReadLine())
