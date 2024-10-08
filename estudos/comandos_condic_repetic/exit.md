@@ -10,6 +10,11 @@ Exit For     ' Para sair de um loop For
 Exit While   ' Para sair de um loop While
 Exit Do      ' Para sair de um loop Do
 Exit Select  ' Para sair de um Select Case
+
+Exit Function
+Exit Property
+Exit Sub
+Exit Try
 ~~~
 
 #### Exemplo com Exit For

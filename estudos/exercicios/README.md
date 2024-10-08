@@ -16,32 +16,33 @@
 1. [While ... End While e Do While ... Loop](comand_condicion_e_repet/while.md)
 1. [Exit (ou Break)](comand_condicion_e_repet/exit.md)
 1. [Continue](comand_condicion_e_repet/continue.md)
-1. [Operador Ternário](comand_condicion_e_repet/oper_ternario.md)
 
 #### Estruturas de Dados
 
 1. [Arrays](estrut_dados/arrays.md)
-1. [Listas](estrut_dados/listas.md)
+<!-- 
+1. [Listas](estrut_dados/listas.md) 
+-->
 
 #### POO
 
-1. [Classes e Objetos](poo/classes-objetos.md)
-1. [Herança](poo/heranca.md)
+<!-- 1. [Classes e Objetos](poo/classes-objetos.md)
+1. [Herança](poo/heranca.md) -->
 
 #### Acesso a Banco de Dados
 
-1. [Fundamentos do ADO.NET](bd/acesso_bd.md)
+<!-- 1. [Fundamentos do ADO.NET](bd/acesso_bd.md) -->
 
 #### Programação Assíncrona e Multithreading
 
-1. [Programação Assíncrona](assinc_e_threads/assincrono.md)
-1. [Trabalhando com Threads](assinc_e_threads/threads.md)
+<!-- 1. [Programação Assíncrona](assinc_e_threads/assincrono.md)
+1. [Trabalhando com Threads](assinc_e_threads/threads.md) -->
 
 #### Boas Práticas de Desenvolvimento
 
-1. [Padrões de Projeto](padroes/padroes_projeto.md)
+<!-- 1. [Padrões de Projeto](padroes/padroes_projeto.md) -->
 
 #### Outros
 
-1. [LINQ](outros/linq.md)
+<!-- 1. [LINQ](outros/linq.md) -->
 

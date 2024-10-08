@@ -4,15 +4,12 @@
 
 - [Glossário Geral](estudos/uteis/glossario.md)
 - [Dicas](estudos/uteis/dicas.md)
-
-#### Introdução
-
 - [Conceitos Gerais](estudos/introducao/conceitos.md)
 - [Regions](estudos/introducao/region.md)
 - [Comentários](estudos/introducao/comentarios.md)
 - [Console - Leitura e Escrita](estudos/introducao/console.md)
 
-- - -
+#### Introdução
 
 - [Tipos de Dados](estudos/introducao/tipos.md)
 - [Variáveis](estudos/introducao/variaveis.md)
@@ -20,35 +17,29 @@
 - [Operadores Aritméticos, Relacionais e Lógicos](estudos/introducao/operadores.md)
 - [Casting](estudos/introducao/casting.md)
 - [Strings](estudos/introducao/strings.md)
-
-<!--
-- [Números Aleatórios](estudos/introducao/random.md)
 - [Math](estudos/introducao/math.md)
+- [Números Aleatórios](estudos/introducao/random.md)
 - [Datas](estudos/introducao/datas.md)
-- [Function (Funções)](estudos/introduao/function.md)
-- [Sub (Subrotinas)](estudos/introduao/sub.md)
--->
+- [Funções e Subrotinas ](estudos/introduao/function_e_sub.md)
 
 #### Comandos Condicionais e de Repetição
 
 - [If ... Else](estudos/comandos_condic_repetic/if_else.md)
+- [Operador Ternário - Alternativas](estudos/comandos_condic_repetic/alternativas_oper_ternario.md)
 - [Select ... Case (semelhante ao Switch)](estudos/comandos_condic_repetic/select_case.md)
 - [For ... Next](estudos/comandos_condic_repetic/for.md)
 - [While ... End While e Do While ... Loop](estudos/comandos_condic_repetic/while.md)
 - [Exit (Break)](estudos/comandos_condic_repetic/exit.md)
 - [Continue](estudos/comandos_condic_repetic/continue.md)
-- [Alternativas para o Operador Ternário](estudos/comandos_condic_repetic/alternativas_oper_ternario.md)
 
 #### Estruturas de Dados
 
 - [Arrays](estudos/estruturas_de_dados/arrays.md)
-<!-- 
-- [Enums](estudos/estruturas_de_dados/enums.md)
-- [Structs](estudos/estruturas_de_dados/structs.md)
 - [Listas](estudos/estruturas_de_dados/listas.md)
+- [Enums](estudos/estruturas_de_dados/enums.md)
 - [Dicionários](estudos/estruturas_de_dados/dicionarios.md)
+- [Structs](estudos/estruturas_de_dados/structs.md)
 - [Tuplas](estudos/estruturas_de_dados/tuplas.md) 
--->
 
 #### POO
 

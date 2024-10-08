@@ -3,7 +3,7 @@
 - A instrução Continue é usada para pular a iteração atual de um loop e avançar para a próxima iteração. 
 - Ela pode ser usada em loops For, While, e Do.
 
-#### Exemplo com For
+#### Continue For
 
 ~~~vb
 For i As Integer = 1 To 10
@@ -14,7 +14,7 @@ For i As Integer = 1 To 10
 Next
 ~~~
 
-#### Exemplo com While
+#### Continue While
 
 ~~~vb
 Dim contador As Integer = 1

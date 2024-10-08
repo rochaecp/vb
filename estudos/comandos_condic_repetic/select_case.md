@@ -1,6 +1,7 @@
 # Estrutura Select Case
 
-- A estrutura Select Case é usada para avaliar uma expressão e executar diferentes blocos de código com base no valor da expressão. Ela é semelhante ao Switch em outras linguagens.
+- A estrutura Select Case é usada para avaliar uma expressão e executar diferentes blocos de código com base no valor da expressão. 
+- Ela é semelhante ao Switch em outras linguagens.
 
 #### Sintaxe
 
