@@ -1,7 +1,6 @@
 # VB.NET - Dicionários
 
 - Em VB.NET, um dicionário (Dictionary(Of TKey, TValue)) é uma coleção de pares chave-valor que permite armazenar e acessar dados de forma eficiente com base em uma chave única. 
-- Ele faz parte do namespace System.Collections.Generic. 
 - Características Principais:
     - Chave Única: Cada chave em um dicionário deve ser única. Se você tentar adicionar uma chave que já existe, ocorrerá uma exceção.
     - Acesso Rápido: Os valores podem ser acessados rapidamente fornecendo a chave correspondente.
@@ -83,6 +82,14 @@ Next
 ~~~vb
 For Each key As String In myDict.Keys
     Console.WriteLine(myDict(key))
+Next
+~~~
+
+##### Exibir Pares Chave Valor
+
+~~~vb
+For Each aluno As KeyValuePair(Of String, Integer) In notasAlunos
+    Console.WriteLine(aluno.Key & ": " & aluno.Value)
 Next
 ~~~
 

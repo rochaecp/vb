@@ -3,10 +3,12 @@
 ## Criar
 
 ~~~vb
-Dim lista1 As New List(Of Integer)
-Dim lista2 As New List(Of Integer) From {10, 20, 30, 40}
+Dim lista1 As New List(Of Integer) From {10, 20, 30, 40}
+Dim lista2 As New List(Of Integer)
 Dim lista3 As New List(Of Integer)(10) ' Capacidade inicial de 10
 
+Dim lista4 As New List(Of Integer)
+lista4.AddRange({10, 20, 30})
 ~~~
 
 ## Tamanho
@@ -25,8 +27,9 @@ lista.Insert(1, 10) ' Insere no indice 1 o valor 10
 ## Remover
 
 ~~~vb
-lista.Remove(1)     ' Remove o valor 1
-lista.RemoveAt(0)   ' Remove o item no índice 0
+Dim lista As New List(Of Integer) From {10, 20, 30, 40, 20}
+Boolean as removeu = lista.Remove(20)    ' remove so o primeiro 20
+lista.RemoveAt(0)                        ' Remove o item no índice 0
 ~~~
 
 ## Indexar
@@ -77,8 +80,8 @@ Dim meuArray() As Integer = lista.ToArray()
 #### Converter arrays em listas
 
 ~~~vb
-Dim array() As Integer = {1, 2, 3, 4}
-Dim lista As New List(Of Integer)(array)
+Dim arr() As Integer = {1, 2, 3, 4}
+Dim lista As New List(Of Integer)(arr)
 ~~~
 
 ## Lista aninhada
@@ -98,7 +101,8 @@ Public Class Pessoa
     Public Property Idade As Integer
 End Class
 
-Dim listaPessoas As New List(Of Pessoa) From {
+Dim listaPessoas As New List(Of Pessoa) From 
+{
     New Pessoa() With {.Nome = "Ana", .Idade = 25},
     New Pessoa() With {.Nome = "João", .Idade = 30}
 }

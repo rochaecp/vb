@@ -123,6 +123,44 @@ Dim valorOriginalBool As Integer = 1
 Dim valorBoolean As Boolean = CBool(valorOriginalBool)  ' Retorna True
 ~~~
 
+### Método CType()
+
+- O CType é uma função em VB.NET usada para converter expressões de um tipo de dado para outro. 
+- Ela é muito útil quando você precisa forçar a conversão de um tipo de dado para outro de forma explícita.
+- O CType é usado quando você precisa garantir que a conversão seja realizada para o tipo de destino especificado. 
+- Ele é mais flexível do que algumas outras formas de conversão, pois pode ser usado para converter entre muitos tipos diferentes, incluindo tipos primitivos (inteiro, string, etc.), classes, e enums.
+- O CType é mais genérico e pode realizar conversões personalizadas, enquanto funções como CInt, CStr, ou CDbl são mais específicas para conversão entre tipos numéricos ou strings.
+- Sintaxe: `CType(valor, TipoDestino)`
+
+~~~vb
+Dim statusPag As StatusPagamento = CType(1, StatusPagamento)
+Console.WriteLine(statusPag.ToString())
+
+Public Enum StatusPagamento
+    Pendente
+    Pago
+    Cancelado
+End Enum
+~~~
+
+~~~vb
+Dim diaStr As String = "Segunda"
+Dim diaEnum As DiasSemana = CType([Enum].Parse(GetType(DiasSemana), diaStr), DiasSemana)
+
+Console.WriteLine(diaEnum)            ' 1
+Console.WriteLine(diaEnum.ToString()) ' Segunda
+
+Public Enum DiasSemana
+    Domingo = 0
+    Segunda = 1
+    Terca = 2
+    Quarta = 3
+    Quinta = 4
+    Sexta = 5
+    Sabado = 6
+End Enum
+~~~
+
 ### Método DirectCast()
 
 - DirectCast() é usado para realizar o casting entre tipos de objetos que estão relacionados, como classes que herdam de uma base comum ou implementam uma interface.

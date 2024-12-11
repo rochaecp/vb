@@ -20,7 +20,7 @@
 - [Math](estudos/introducao/math.md)
 - [Números Aleatórios](estudos/introducao/random.md)
 - [Datas](estudos/introducao/datas.md)
-- [Funções e Subrotinas ](estudos/introduao/function_e_sub.md)
+- [Funções e Subrotinas ](estudos/introducao/function_e_sub.md)
 
 #### Comandos Condicionais e de Repetição
 
@@ -37,26 +37,25 @@
 - [Arrays](estudos/estruturas_de_dados/arrays.md)
 - [Listas](estudos/estruturas_de_dados/listas.md)
 - [Enums](estudos/estruturas_de_dados/enums.md)
+- [Tuplas](estudos/estruturas_de_dados/tuplas.md) 
 - [Dicionários](estudos/estruturas_de_dados/dicionarios.md)
 - [Structs](estudos/estruturas_de_dados/structs.md)
-- [Tuplas](estudos/estruturas_de_dados/tuplas.md) 
 
 #### POO
 
-- [Classes e Objetos](estudos/poo/classes-objetos.md)
+- [Classes e Objetos](estudos/poo/classes_objetos.md)
+- [Propriedades e Métodos](estudos/poo/propriedades_metodos.md)
 - [Modificadores de Acesso](estudos/poo/modificadores_acesso.md)
-- [Propriedades](estudos/poo/propriedades.md)
-- [Verificando se uma classe existe em um Projeto](estudos/poo/gettype.md)
-- [With](estudos/poo/with.md)
+- [Herança](estudos/poo/heranca.md)
+- [Sobrescrita](estudos/poo/sobrescrita.md)
+- [Polimorfismo](estudos/poo/polimorfismo.md)
 <!-- 
-- [Métodos](estudos/poo/metodos.md)
 - [Métodos de Extensão](estudos/poo/metodos_extensao.md)
 - [Encapsulamento](estudos/poo/encapsulamento.md)
-- [Herança](estudos/poo/heranca.md)
-- [Polimorfismo](estudos/poo/polimorfismo.md)
 - [Abstração](estudos/poo/abstracao.md)
 - [Interfaces](estudos/poo/interfaces.md)
 - [Classes, Atributos e Métodos Shared](estudos/poo/shared.md) 
+fazer exercício completo Unisinos
 -->
 
 #### Outros

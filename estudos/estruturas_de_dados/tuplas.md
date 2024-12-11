@@ -14,7 +14,15 @@
 ## Criar
 
 ~~~vb
-Dim minhaTupla As Tuple(Of String, Integer) = Tuple.Create("João", 25)
+Dim minhaTupla As Tuple(Of Integer, String) = Tuple.Create(1, "Olá")
+Console.WriteLine(minhaTupla.Item1) ' Saída: 1
+Console.WriteLine(minhaTupla.Item2) ' Saída: Olá
+~~~
+
+~~~vb
+Dim minhaTupla = (Id:=1, Nome:="Olá")
+Console.WriteLine(minhaTupla.Id)   ' Saída: 1
+Console.WriteLine(minhaTupla.Nome) ' Saída: Olá
 ~~~
 
 ## Acessar
@@ -48,124 +56,4 @@ Console.WriteLine(pessoa.Item2) ' Exibe 40
 Dim pessoa = (Nome: "Ana", Idade: 28)
 Console.WriteLine(pessoa.Nome) ' Exibe "Ana"
 Console.WriteLine(pessoa.Idade) ' Exibe 28
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
-~~~
-
-##
-
-~~~vb
-
 ~~~

@@ -38,7 +38,9 @@ Dim hoje As DiaDaSemana = DiaDaSemana.Quarta
 Console.WriteLine(hoje)  ' Saída: Quarta
 ~~~
 
-## Conversão para Inteiros
+## Converter
+
+#### Converter Enum para Inteiros
 
 - Enums são baseados em números inteiros, então você pode converter um valor enum para o seu valor numérico subjacente.
 
@@ -47,7 +49,39 @@ Dim valorNumerico As Integer = CInt(DiaDaSemana.Quarta)
 Console.WriteLine(valorNumerico)  ' Saída: 3
 ~~~
 
-## Comparação
+#### Converter Integer em Enum
+
+~~~vb
+Dim valorInt As Integer = 1
+Dim prod As CategoriaProduto = CType(valorInt, CategoriaProduto)
+Console.WriteLine(prod.ToString())
+
+'(...)
+
+Public Enum CategoriaProduto
+    Alimenticio
+    Eletronico
+    Vestuario
+End Enum
+~~~
+
+#### Converter String em Enum
+
+~~~vb
+Dim diaStr As String = "Segunda"
+Dim diaEnum As DiasSemana = [Enum].Parse(GetType(DiasSemana), diaStr)
+Console.WriteLine(diaEnum.ToString())
+
+'(...)
+
+Public Enum DiasSemana
+    Domingo = 0
+    Segunda = 1
+    '(...)
+End Enum
+~~~
+
+## Comparar
 
 - Você pode comparar valores enum diretamente
 
@@ -55,6 +89,25 @@ Console.WriteLine(valorNumerico)  ' Saída: 3
 If hoje = DiaDaSemana.Quarta Then
     Console.WriteLine("Hoje é quarta-feira.")
 End If
+~~~
+
+~~~vb
+Dim p1 As Prioridade = Prioridade.Alta
+Dim p2 As Prioridade = Prioridade.Media
+
+If p1 > p2 Then
+    Console.WriteLine("p1 é maior")
+ElseIf p1 < p2 Then
+    Console.WriteLine("p2 é maior")
+End If
+
+'(...)
+
+Public Enum Prioridade
+    Baixa = 1
+    Media = 2
+    Alta = 3
+End Enum
 ~~~
 
 ## Definir Tipos Base para Enums
@@ -66,6 +119,41 @@ Enum Status As Byte
     Inativo = 0
     Ativo = 1
     Pendente = 2
+End Enum
+~~~
+
+## Verificar se a Enum foi definida `IsDefined()`
+
+~~~vb
+Module Program
+    Sub Main(args As String())
+
+        Dim codigo As MinhaEnum = 3 ' testar com 4
+
+        If Not [Enum].IsDefined(GetType(MinhaEnum), codigo) Then
+            Throw New Exception($"Código inválido: {CInt(codigo)}.")
+        End If
+
+        Console.ReadKey()
+    End Sub
+
+    Friend Enum MinhaEnum
+        Valor1 = 1
+        Valor2 = 2
+        Valor3 = 3
+    End Enum
+
+End Module
+~~~
+
+## Escapando Palavras reservadas 
+
+~~~vb
+Public Enum MinhaEnum As Byte
+    Debug = 0
+    Information = 1
+    Warning = 2
+    [Error] = 3 ' colchetes utilizados para escapar a palavra reservada Error
 End Enum
 ~~~
 

@@ -124,6 +124,12 @@
 - A tag ```<summary>``` é usada para criar um resumo descritivo sobre o elemento de código (como um método ou propriedade) ao qual está anexado. É uma convenção de documentação usada amplamente em VB.NET e outras linguagens como C#.
 - Quando o desenvolvedor passa o mouse sobre o método ou propriedade no editor de código, esse comentário é exibido, ajudando a fornecer informações contextuais.
 
+## ThreadPool
+
+- O ThreadPool é uma classe que gerencia um conjunto de threads que podem ser reutilizadas para executar tarefas de forma assíncrona. 
+- Quando você coloca uma tarefa no pool de threads, ela será executada em uma das threads disponíveis. 
+- O uso de ThreadPool ajuda a evitar a criação de threads desnecessárias e melhora o desempenho de programas que precisam executar tarefas simultâneas.
+
 ## With
 
 - A instrução With...End With é uma estrutura que permite executar múltiplas operações em um mesmo objeto sem precisar repetir o nome desse objeto a cada linha.

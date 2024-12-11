@@ -20,9 +20,11 @@
 #### Estruturas de Dados
 
 1. [Arrays](estrut_dados/arrays.md)
-<!-- 
 1. [Listas](estrut_dados/listas.md) 
--->
+1. [Listas](estrut_dados/enum.md)
+1. [Listas](estrut_dados/tupla.md)
+1. [Listas](estrut_dados/dicionario.md) 
+1. [Listas](estrut_dados/struct.md) 
 
 #### POO
 

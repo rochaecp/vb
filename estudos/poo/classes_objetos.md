@@ -1,4 +1,28 @@
-#### Exemplo de Type.GetType()
+## Classes
+
+- Em POO, uma classe é um modelo ou “molde” que define as propriedades (atributos) e os comportamentos (métodos) que os objetos criados a partir dela terão. 
+- Pense na classe como uma planta de um edifício: ela descreve como um objeto deve ser, mas não é o próprio objeto.
+
+~~~vb
+Public Class Pessoa
+    Public Nome As String
+    Public Idade As Integer
+End Class
+~~~
+
+## Objetos
+
+- Um objeto é uma instância concreta de uma classe. 
+- Usando a analogia da planta, o objeto seria o edifício real construído a partir daquela planta. 
+- Em VB.NET, objetos são criados a partir de classes usando a palavra-chave ```New```.
+
+~~~vb
+Dim pessoa1 As New Pessoa()
+pessoa1.Nome = "João"
+pessoa1.Idade = 30
+~~~
+
+## Verificando se uma classe existe em um Projeto - Type.GetType()
 
 - O parâmetro passado para Type.GetType é uma string que contém o nome completo (fully qualified name) da classe, incluindo o namespace.
 - O método Type.GetType("ConsoleApp01Intro.Exemplo") tenta localizar a classe Exemplo dentro do namespace ConsoleApp01Intro e retorna uma instância do tipo Type que descreve essa classe, se ela for encontrada.

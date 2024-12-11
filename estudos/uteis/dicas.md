@@ -16,6 +16,10 @@
 - Embora não seja obrigatório, é considerado uma boa prática nomear o arquivo de acordo com o nome da classe principal que ele contém. 
 - Um único arquivo pode conter múltiplas classes, módulos, estruturas, ou interfaces. O nome do arquivo não precisa refletir todos os tipos que ele contém.
 
+## Janela Imediata
+
+- https://learn.microsoft.com/pt-br/visualstudio/ide/reference/immediate-window?view=vs-2022
+
 ## Referências
 
 - No VB.NET, objetos são passados por referência por padrão
