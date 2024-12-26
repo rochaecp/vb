@@ -48,7 +48,8 @@
 - [Modificadores de Acesso](estudos/poo/modificadores_acesso.md)
 - [Herança](estudos/poo/heranca.md)
 - [Sobrescrita](estudos/poo/sobrescrita.md)
-- [Polimorfismo](estudos/poo/polimorfismo.md)
+- [Polimorfismo, Classes Abstratas e Interfaces](estudos/poo/polimorfismo.md)
+- [Construtores e Destrutores](estudos/poo/construtores_destrutores.md)
 <!-- 
 - [Métodos de Extensão](estudos/poo/metodos_extensao.md)
 - [Encapsulamento](estudos/poo/encapsulamento.md)
