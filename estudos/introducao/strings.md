@@ -206,3 +206,14 @@ Console.WriteLine(sb.ToString())
 
 - vbCrLf: Quebra de linha
 - vbTab: tab
+
+## Verificar Conteúdo 
+
+- Determinar se uma string contém uma palavra ou caractere com `Contains`.
+
+~~~vb
+Dim texto As String = "Bem-vindo ao curso de VB.NET"
+If texto.Contains("VB.NET") Then
+    Console.WriteLine("A palavra 'VB.NET' foi encontrada!")
+End If
+~~~

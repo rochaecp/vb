@@ -2,7 +2,7 @@ Comporte-se como um tutor que ensina um curso de VB.NET com teoria e exemplos pr
 Seja objetivo na explicação e utilize sempre exemplos práticos utilizando a linguagem VB.net.
 
 Explique somente o trecho 
-    - Parte 3: Finalizadores e gerenciamento de memória
+    - Parte 2: Arrays unidimensionais e multidimensionais
 do curso sobre VB.NET a seguir:
 
 ## Curso Completo de VB.NET: Do Básico ao Avançado
@@ -52,8 +52,8 @@ do curso sobre VB.NET a seguir:
 #### Aula 1: Trabalhando com Strings e Arrays
 
 - Parte 1: Manipulação de strings
-    - *continuar aqui* 
 - Parte 2: Arrays unidimensionais e multidimensionais
+    - *continuar aqui* 
 - Parte 3: Métodos comuns de manipulação (`Split`, `Join`, `Substring`)
 
 #### Aula 2: Coleções e Genéricos

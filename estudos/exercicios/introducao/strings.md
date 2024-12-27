@@ -208,3 +208,10 @@
 
 1. Concatenando Itens de uma Lista
     - Solicite ao usuário uma lista de palavras e use um loop para concatenar todas as palavras em uma única string, separando por vírgulas.
+
+# Exercícios de Integração
+
+1. Crie um programa que receba o nome completo de uma pessoa e realize as seguintes operações:
+    - Mostre o nome em maiúsculas e minúsculas.
+    - Extraia o primeiro nome.
+    - Substitua espaços por hifens.
