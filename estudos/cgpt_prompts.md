@@ -2,7 +2,7 @@ Comporte-se como um tutor que ensina um curso de VB.NET com teoria e exemplos pr
 Seja objetivo na explicação e utilize sempre exemplos práticos utilizando a linguagem VB.net.
 
 Explique somente o trecho 
-    - Parte 2: Arrays unidimensionais e multidimensionais
+    - Parte 1: Uso de breakpoints e inspeção de variáveis
 do curso sobre VB.NET a seguir:
 
 ## Curso Completo de VB.NET: Do Básico ao Avançado
@@ -53,7 +53,6 @@ do curso sobre VB.NET a seguir:
 
 - Parte 1: Manipulação de strings
 - Parte 2: Arrays unidimensionais e multidimensionais
-    - *continuar aqui* 
 - Parte 3: Métodos comuns de manipulação (`Split`, `Join`, `Substring`)
 
 #### Aula 2: Coleções e Genéricos
@@ -79,6 +78,7 @@ do curso sobre VB.NET a seguir:
 #### Aula 2: Debugging e Ferramentas de Diagnóstico
 
 - Parte 1: Uso de breakpoints e inspeção de variáveis
+    <!-- *************************************************** continuar aqui  --> 
 - Parte 2: Ferramentas de diagnóstico e logging
 - Parte 3: Técnicas de resolução de problemas
 

@@ -1,5 +1,8 @@
 # VB.net - Listas
 
+- As listas são coleções ordenadas de elementos que podem ser acessados pelo índice. 
+- Diferente de arrays, elas têm tamanho dinâmico e podem crescer ou diminuir conforme necessário.
+
 ## Criar
 
 ~~~vb
@@ -106,4 +109,14 @@ Dim listaPessoas As New List(Of Pessoa) From
     New Pessoa() With {.Nome = "Ana", .Idade = 25},
     New Pessoa() With {.Nome = "João", .Idade = 30}
 }
+~~~
+
+## Verificar se um item existe
+
+~~~vb
+Dim frutas As New List(Of String) From {"Maçã", "Banana", "Laranja"}
+
+If frutas.Contains("Banana") Then
+    Console.WriteLine("Banana está na lista!")
+End If
 ~~~

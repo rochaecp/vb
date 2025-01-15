@@ -1,13 +1,34 @@
 # VB.net - Arrays Unidimensionais
 
+- Um array é uma estrutura fixa de dados que armazena elementos do mesmo tipo. 
+- Sua principal característica é que o tamanho é definido no momento da declaração e não pode ser alterado.
+- Eles podem ser unidimensionais (linha única de dados) ou multidimensionais (matrizes, como tabelas ou cubos de dados).
+- Características:
+    - Tamanho fixo.
+    - Acesso por índices baseados em zero.
+    - Simples e eficiente para dados de tamanho conhecido.
+- Limitações:
+    - Não podem redimensionar o tamanho dinamicamente.
+    - Limitados a armazenar elementos do mesmo tipo.    
+
+# Arrays Unidimensionais
+
+- Um array unidimensional é como uma lista de valores indexados.
+
 ## Criar
 
 ~~~vb
+' criando e inicializando em uma única linha
 Dim arr1() As Integer = {10, 20, 30}    ' modo 1
 Dim arr2 As Integer() = {10, 20, 30}    ' modo 2
-Dim arr3(2) As Integer                  ' modo 3
 
-Dim arr4() As Integer                   ' modo 4
+' criando um array com 2 posições e inicializando em uma linha diferente
+Dim arr3(2) As Integer
+arr3(0) = 10
+arr3(1) = 20
+
+' outra forma
+Dim arr4() As Integer
 arr4 = New Integer() {10, 20, 30}
 ~~~
 
@@ -125,11 +146,40 @@ Dim meuArr2(9, 9) As Integer ' array 10x10
 Dim meuArr3(,) As Integer = {{1, 2}, {3, 4}, {5, 6}}
 ~~~
 
+~~~vb
+' Declarando um array 2x3
+Dim matriz(1, 2) As Integer
+
+' Inicializando os valores manualmente
+matriz(0, 0) = 1
+matriz(0, 1) = 2
+matriz(0, 2) = 3
+matriz(1, 0) = 4
+matriz(1, 1) = 5
+matriz(1, 2) = 6
+
+' Declarando e inicializando diretamente
+Dim tabela(,) As String = {{"A1", "B1", "C1"}, {"A2", "B2", "C2"}}
+~~~
+
 ## Indexar
+
+#### Um elemento
 
 ~~~vb
 Console.WriteLine(meuArr1(0, 0))
 ~~~        
+
+#### Todos os elementos
+
+~~~vb
+For i As Integer = 0 To 1 ' Linha
+    For j As Integer = 0 To 2 ' Coluna
+        Console.WriteLine("Elemento ({0},{1}) = {2}", i, j, matriz(i, j))
+    Next
+Next
+
+~~~
 
 # VB.net - Arrays Tridimensionais
 

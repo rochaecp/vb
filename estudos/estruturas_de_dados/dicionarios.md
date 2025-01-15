@@ -85,6 +85,12 @@ For Each key As String In myDict.Keys
 Next
 ~~~
 
+~~~vb
+For Each item In capitais
+    Console.WriteLine("País: " & item.Key & ", Capital: " & item.Value)
+Next
+~~~
+
 ##### Exibir Pares Chave Valor
 
 ~~~vb

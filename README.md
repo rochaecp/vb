@@ -50,6 +50,7 @@
 - [Sobrescrita](estudos/poo/sobrescrita.md)
 - [Polimorfismo, Classes Abstratas e Interfaces](estudos/poo/polimorfismo.md)
 - [Construtores e Destrutores](estudos/poo/construtores_destrutores.md)
+- [Genéricos](estudos/poo/genericos.md)
 <!-- 
 - [Métodos de Extensão](estudos/poo/metodos_extensao.md)
 - [Encapsulamento](estudos/poo/encapsulamento.md)
@@ -61,12 +62,13 @@ fazer exercício completo Unisinos
 
 #### Outros
 
+- [Exceções](estudos/outros/excecoes.md)
+- [Leitura e Escrita de Arquivos (texto e binários)](estudos/outros/arquivos.md)
 - [Timer](estudos/outros/timer.md)
 - [Serviços Windows](estudos/outros/servicos_windows.md)
 - [LINQ](estudos/outros/linq.md)
 - [Serialização de Objetos](estudos/outros/serializacao.md)
 <!-- 
-- [Exceções](estudos/outros/excecoes.md)
 - Serialização com JavaScriptSerializer
 - [Arquivos](estudos/outros/arquivos.md)
 - [Expressões Lambda](estudos/outros/expressoes_lambda.md)
