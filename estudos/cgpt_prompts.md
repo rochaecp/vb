@@ -2,7 +2,7 @@ Comporte-se como um tutor que ensina um curso de VB.NET com teoria e exemplos pr
 Seja objetivo na explicação e utilize sempre exemplos práticos utilizando a linguagem VB.net.
 
 Explique somente o trecho 
-    - Parte 1: Uso de breakpoints e inspeção de variáveis
+    - Parte 2: Uso de `Async` e `Await`
 do curso sobre VB.NET a seguir:
 
 ## Curso Completo de VB.NET: Do Básico ao Avançado
@@ -78,7 +78,6 @@ do curso sobre VB.NET a seguir:
 #### Aula 2: Debugging e Ferramentas de Diagnóstico
 
 - Parte 1: Uso de breakpoints e inspeção de variáveis
-    <!-- *************************************************** continuar aqui  --> 
 - Parte 2: Ferramentas de diagnóstico e logging
 - Parte 3: Técnicas de resolução de problemas
 
@@ -88,6 +87,7 @@ do curso sobre VB.NET a seguir:
 
 - Parte 1: O que é programação assíncrona?
 - Parte 2: Uso de `Async` e `Await`
+    <!-- *************************************************** continuar aqui  --> 
 - Parte 3: Task-based Asynchronous Pattern (TAP)
 
 #### Aula 2: Trabalhando com Threads

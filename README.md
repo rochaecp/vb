@@ -68,6 +68,8 @@ fazer exercício completo Unisinos
 - [Serviços Windows](estudos/outros/servicos_windows.md)
 - [LINQ](estudos/outros/linq.md)
 - [Serialização de Objetos](estudos/outros/serializacao.md)
+- [Logging e Debug](estudos/outros/logging_e_debug.md)
+- [Programação Assíncrona](estudos/outros/programacao_assincrona.md)
 <!-- 
 - Serialização com JavaScriptSerializer
 - [Arquivos](estudos/outros/arquivos.md)
