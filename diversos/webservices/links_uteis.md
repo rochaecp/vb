@@ -1,0 +1,2 @@
+- Webservice que retorna uma lista de usuários
+    - https://jsonplaceholder.typicode.com/users
