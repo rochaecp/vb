@@ -74,7 +74,8 @@
 
 #### Acesso a Bancos de Dados
 
-- [Conectando a um BD](linguagem_vb/09_acesso_bd/conectando.md)
+- [Conectando ao Banco de Dados em VB.NET](linguagem_vb/09_acesso_bd/conectando.md)
+- [Executando comandos SQL](linguagem_vb/09_acesso_bd/comandos_sql.md)
 
 #### Programação Assíncrona
 

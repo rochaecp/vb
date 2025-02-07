@@ -184,3 +184,150 @@ End Class
 - Este exemplo faz uma requisição GET para um webservice público, retorna os dados em formato JSON e exibe a resposta no console. 
 - Essa abordagem pode ser aplicada para consumo de APIs de terceiros, como serviços bancários, APIs de clima ou consultas de produtos em um e-commerce.
 - Os webservices são essenciais para o desenvolvimento de sistemas modernos, permitindo integração eficiente entre aplicações e possibilitando a criação de soluções escaláveis e distribuídas.    
+
+## Evolução dos Webservices: De RPC e SOAP a REST e GraphQL
+
+- Os webservices evoluíram ao longo do tempo para atender às crescentes demandas por interoperabilidade, desempenho e flexibilidade na comunicação entre sistemas. 
+- Essa evolução pode ser dividida em quatro principais abordagens: RPC, SOAP, REST e GraphQL.
+
+- RPC (Remote Procedure Call)
+    - O RPC é um dos primeiros modelos de comunicação remota entre sistemas. 
+    - Ele permite que um programa execute funções em um servidor remoto como se fossem chamadas locais.
+    - Baseado em protocolos binários como XML-RPC e JSON-RPC.
+    - Usa chamadas diretas a métodos remotos, tornando-se dependente da implementação do servidor.
+    - Exemplo prático: um cliente solicita soma(2,3), e o servidor retorna 5.
+    - Desvantagem: Fortemente acoplado e menos flexível para mudanças.
+- SOAP (Simple Object Access Protocol)
+    - O SOAP surgiu como uma evolução do RPC, padronizando a comunicação com o uso de XML e WSDL (Web Services Description Language).
+    - Utiliza mensagens XML bem definidas, garantindo compatibilidade entre diferentes plataformas.
+    - Funciona sobre HTTP, SMTP ou outros protocolos.
+    - Suporte a segurança avançada com WS-Security.
+    - Desvantagem: XML pode ser pesado, aumentando a latência das requisições.
+    - Exemplo de requisição SOAP:
+        ~~~xml
+        <soap:Envelope>
+        <soap:Body>
+            <Add>
+                <intA>2</intA>
+                <intB>3</intB>
+            </Add>
+        </soap:Body>
+        </soap:Envelope>
+        ~~~
+- REST (Representational State Transfer)
+    - O REST revolucionou os webservices ao simplificar a comunicação usando princípios da web, como statelessness e recursos representados por URLs.
+    - Baseado em HTTP e utiliza métodos padrão (GET, POST, PUT, DELETE).
+    - Usa JSON ou XML, sendo mais leve e eficiente que SOAP.
+    - Endpoints bem definidos, como GET /usuarios/1 para buscar um usuário.
+    - Exemplo de requisição REST:
+        ~~~xml
+        GET /usuarios/1 HTTP/1.1
+        Host: api.exemplo.com
+        ~~~    
+    - Vantagens:
+        - Simples e eficiente.
+        - Altamente escalável.
+        - Amplamente adotado em aplicações modernas.
+- GraphQL
+    - O GraphQL, desenvolvido pelo Facebook, permite consultas flexíveis onde o cliente especifica exatamente quais dados deseja.
+    - Ao contrário do REST, evita overfetching (retorno excessivo de dados) e underfetching (dados insuficientes).
+    - Permite múltiplas consultas em uma única requisição.
+    - Especifica os campos necessários, reduzindo o consumo de banda.
+    - Exemplo de consulta GraphQL:        
+        ~~~json
+        {
+        usuario(id: 1) {
+            nome
+            email
+        }
+        }
+        ~~~
+- Vantagens:
+    - Menos carga na rede, pois retorna apenas os dados solicitados.
+    - Melhor desempenho em dispositivos móveis e redes instáveis.
+- Conclusão
+    - RPC e SOAP foram os primeiros modelos, mas são mais rígidos e verbosos.
+    - REST simplificou a comunicação, tornando-se o padrão dominante.
+    - GraphQL trouxe ainda mais flexibilidade, permitindo otimização de consultas.
+    - Cada tecnologia tem seu uso ideal, e a escolha depende dos requisitos do sistema.
+
+## Webservices em Arquiteturas Modernas
+
+- Os webservices desempenham um papel essencial em arquiteturas modernas, permitindo a comunicação entre sistemas distribuídos de forma escalável, eficiente e segura. 
+- Atualmente, as arquiteturas mais utilizadas são SOA (Service-Oriented Architecture), microsserviços e event-driven architecture.
+- 1. Arquitetura Baseada em Serviços (SOA)
+    - A Arquitetura Orientada a Serviços (SOA) foi um dos primeiros modelos modernos de arquitetura para integração de sistemas.
+    - Baseia-se na criação de serviços reutilizáveis que se comunicam por meio de mensagens padronizadas.
+    - Os serviços podem estar distribuídos em diferentes servidores e sistemas, conectados por protocolos como SOAP e REST.
+    - É muito usada em grandes empresas para integração entre sistemas legados.
+    - Exemplo de uso:
+        - Um banco pode ter um serviço para processar pagamentos e outro para verificar saldo, que podem ser consumidos por diferentes aplicações.
+- 2. Arquitetura de Microsserviços
+    - Os microsserviços representam uma evolução da SOA, permitindo que aplicações sejam divididas em pequenos serviços independentes.
+    - Cada serviço é autônomo, podendo ser desenvolvido, implantado e escalado separadamente.
+    - A comunicação entre microsserviços geralmente ocorre por APIs REST ou mensageria (RabbitMQ, Kafka).
+    - Oferece maior flexibilidade e escalabilidade, sendo amplamente utilizada em aplicações baseadas na nuvem.
+    - Exemplo de uso:
+        - Uma loja virtual pode ter microsserviços separados para carrinho de compras, pagamento, estoque e notificações.
+- 3. Arquitetura Orientada a Eventos (Event-Driven Architecture)
+    - Esse modelo permite que sistemas sejam reativos, ou seja, respondam automaticamente a eventos sem a necessidade de chamadas diretas entre serviços.
+    - Utiliza mensageria assíncrona, como Kafka, RabbitMQ e AWS SNS/SQS.
+    - Melhora o desempenho e a escalabilidade, pois os serviços não precisam esperar respostas imediatas.
+    - Ideal para sistemas que precisam processar grandes volumes de dados em tempo real.
+    - Exemplo de uso:
+        - Uma plataforma de streaming pode enviar eventos quando um usuário assiste a um vídeo, permitindo atualizar recomendações sem impactar a performance.
+- Conclusão
+    - Os webservices evoluíram para suportar arquiteturas mais escaláveis e resilientes.
+    - SOA ainda é utilizada para integração de sistemas legados.
+    - Microsserviços são a base de aplicações modernas na nuvem.
+    - Arquitetura orientada a eventos permite alta escalabilidade e processamento assíncrono.
+    - Cada arquitetura tem suas vantagens e é escolhida conforme as necessidades do sistema.
+
+## HTTP/HTTPS em Webservices
+
+- O HTTP é um protocolo baseado no modelo requisição-resposta, onde um cliente (como um navegador ou aplicação) envia uma requisição a um servidor, que retorna uma resposta. 
+- Ele é stateless, ou seja, não mantém o estado das interações entre requisições.
+- Características do HTTP:
+    - Baseado em texto: Fácil de ler e depurar.
+    - Métodos padronizados: Inclui comandos como GET, POST, PUT, DELETE, usados em Webservices RESTful.
+    - Porta padrão: Utiliza a porta 80 para comunicação.
+- Exemplo de Requisição HTTP:
+    - Uma requisição HTTP simples para um Webservice pode ter o seguinte formato:
+        ~~~vb
+        GET /api/produtos HTTP/1.1  
+        Host: www.exemplo.com  
+        ~~~
+    - A resposta do servidor pode vir no formato JSON:
+        ~~~json
+        HTTP/1.1 200 OK  
+        Content-Type: application/json  
+        
+        { "id": 1, "nome": "Notebook", "preco": 3500.00 }
+        ~~~
+- 2. HTTPS: Segurança na Comunicação
+    - O HTTPS é uma versão segura do HTTP, onde os dados são criptografados usando SSL/TLS (Secure Socket Layer / Transport Layer Security). Isso evita ataques como interceptação de pacotes (man-in-the-middle), garantindo confidencialidade e integridade dos dados.
+    - Principais Benefícios do HTTPS:
+        - Criptografia: Protege os dados transmitidos entre cliente e servidor.
+        - Autenticação: Garante que o cliente está se comunicando com o servidor correto.
+        - Integridade: Impede que os dados sejam alterados durante a transmissão.
+        - Porta padrão: Utiliza a porta 443 ao invés da 80.
+- 3. HTTP x HTTPS em Webservices
+    - Webservices modernos devem sempre usar HTTPS para proteger informações sensíveis.
+    - APIs públicas e privadas exigem HTTPS para conformidade com padrões de segurança como OAuth e JWT.
+    - Muitos navegadores e plataformas já bloqueiam requisições HTTP não seguras.
+- Resumo
+    - HTTP é a base da comunicação web e dos Webservices REST.
+    - HTTPS adiciona segurança através de criptografia SSL/TLS.
+    - Webservices modernos devem sempre usar HTTPS para proteger dados.
+    - APIs RESTful usam métodos HTTP (GET, POST, PUT, DELETE) para manipulação de recursos.
+- O protocolo HTTP/HTTPS é essencial para a comunicação eficiente e segura entre aplicações web e Webservices.
+
+
+
+
+
+
+
+
+
+

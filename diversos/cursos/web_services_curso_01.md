@@ -2,7 +2,7 @@ Comporte-se como um tutor que ensina um curso sobre webservices com teoria e exe
 Seja objetivo na explicação..
 
 Explique somente o trecho 
-    - Parte 1: De RPC e SOAP a REST e GraphQL
+    - Parte 2: AMQP
 do curso sobre webservices a seguir:
 
 ## Introdução aos Webservices
@@ -15,13 +15,13 @@ do curso sobre webservices a seguir:
 #### Evolução dos Webservices
 
 - Parte 1: De RPC e SOAP a REST e GraphQL
-    <!-- *************************************************** continuar aqui  --> 
 - Parte 2: Webservices em arquiteturas modernas
 
 #### Principais Protocolos e Padrões
 
 - Parte 1: HTTP/HTTPS
 - Parte 2: AMQP
+    <!-- *************************************************** continuar aqui  --> 
 - Parte 3: MQTT
 - Parte 4: WebSocket
 
