@@ -76,6 +76,7 @@
 
 - [Conectando ao Banco de Dados em VB.NET](linguagem_vb/09_acesso_bd/conectando.md)
 - [Executando comandos SQL](linguagem_vb/09_acesso_bd/comandos_sql.md)
+- [Uso de DataReader, DataSet e DataAdapter](linguagem_vb/09_acesso_bd/objetos_manipulacao.md)
 
 #### Programação Assíncrona
 

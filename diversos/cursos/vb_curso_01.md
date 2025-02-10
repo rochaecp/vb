@@ -2,7 +2,7 @@ Comporte-se como um tutor que ensina um curso de VB.NET com teoria e exemplos pr
 Seja objetivo na explicação e utilize sempre exemplos práticos utilizando a linguagem VB.net.
 
 Explique somente o trecho 
-    - Parte 3: Uso de `DataReader`, `DataSet`, `DataAdapter`
+    - Parte 1: Stored Procedures e funções
 do curso sobre VB.NET a seguir (não utilize tabelas para realizar a explicação):
 
 ## Curso Completo de VB.NET: Do Básico ao Avançado
@@ -102,11 +102,11 @@ do curso sobre VB.NET a seguir (não utilize tabelas para realizar a explicaçã
 - Parte 1: Conectando ao banco de dados
 - Parte 2: Executando comandos SQL (`SELECT`, `INSERT`, `UPDATE`, `DELETE`)
 - Parte 3: Uso de `DataReader`, `DataSet`, `DataAdapter`
-    <!-- *************************************************** continuar aqui  --> 
 
 #### Aula 2: Manipulação Avançada de Dados
 
 - Parte 1: Stored Procedures e funções
+    <!-- *************************************************** continuar aqui  --> 
 - Parte 2: Transações e controle de consistência de dados
 - Parte 3: Mapeamento objeto-relacional (ORM) com Entity Framework
 
