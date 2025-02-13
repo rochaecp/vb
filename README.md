@@ -1,8 +1,9 @@
 # Visual Basic .NET
 
+## Linguagem VB.NET
+
 #### Introdução
 
-- [Olá Mundo](01_linguagem_vb/01_introducao/ola_mundo.md)
 - [Comentários](01_linguagem_vb/01_introducao/comentarios.md)
 - [Console - Leitura e Escrita](01_linguagem_vb/01_introducao/console.md)
 - [Tipos de Dados](01_linguagem_vb/01_introducao/tipos.md)
@@ -89,3 +90,9 @@
 - [Conceitos Gerais](A_uteis/conceitos.md)
 - [Arquiteturas](A_uteis/arquitetura.md)
 - [Regions](A_uteis/region.md)
+
+## Exemplos
+
+#### Introdução
+
+- [Aplicação de Console em VB.NET - Hello World](B_exemplos/01_introducao/hello_world.md)
