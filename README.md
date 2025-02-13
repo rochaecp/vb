@@ -95,4 +95,6 @@
 
 #### Introdução
 
-- [Aplicação de Console em VB.NET - Hello World](B_exemplos/01_introducao/hello_world.md)
+- [Hello World](B_exemplos/01_introducao/hello_world.md)
+- [Inventário Simplificado](B_exemplos/01_introducao/inventario_simplificado.md)
+

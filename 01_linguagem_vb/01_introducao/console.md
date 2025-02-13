@@ -1,4 +1,4 @@
-## Escrita no Console
+# Escrita no Console
 
 #### Console.WriteLine()
 
@@ -8,7 +8,12 @@
 Console.WriteLine("Olá, Mundo!")  ' Exibe o texto e pula para a linha seguinte
 ~~~
 
-## Console.Write()
+~~~vb
+Dim valor As Decimal = 3.5432
+Console.WriteLine($"Valor = {valor.ToString("F2")}") ' Valor = 3,54
+~~~
+
+#### Console.Write()
 
 - Escreve um texto no console, mas mantém o cursor na mesma linha.
 
@@ -16,9 +21,7 @@ Console.WriteLine("Olá, Mundo!")  ' Exibe o texto e pula para a linha seguinte
 Console.Write("Digite seu nome: ")  ' Exibe o texto sem pular de linha
 ~~~
 
-- - - 
-
-## Leitura no Console
+# Leitura no Console
 
 #### Console.ReadLine()
 
