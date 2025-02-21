@@ -5,6 +5,7 @@
 #### Introdução
 
 - [Comentários](01_linguagem_vb/01_introducao/comentarios.md)
+- [Regions](01_linguagem_vb/01_introducao/region.md)
 - [Console - Leitura e Escrita](01_linguagem_vb/01_introducao/console.md)
 - [Tipos de Dados](01_linguagem_vb/01_introducao/tipos.md)
 - [Variáveis](01_linguagem_vb/01_introducao/variaveis.md)
@@ -43,6 +44,7 @@
 
 - [Classes e Objetos](01_linguagem_vb/05_poo/classes_objetos.md)
 - [Propriedades e Métodos](01_linguagem_vb/05_poo/propriedades_metodos.md)
+- [Métodos Acessadores e Modificadores](01_linguagem_vb/05_poo/getters_setters.md)
 - [Modificadores de Acesso](01_linguagem_vb/05_poo/modificadores_acesso.md)
 - [Herança](01_linguagem_vb/05_poo/heranca.md)
 - [Sobrescrita](01_linguagem_vb/05_poo/sobrescrita.md)
@@ -64,6 +66,8 @@
 - [Executando comandos SQL](01_linguagem_vb/08_acesso_bd/comandos_sql.md)
 - [Uso de DataReader, DataSet e DataAdapter](01_linguagem_vb/08_acesso_bd/objetos_manipulacao.md)
 - [Stored Procedures e Funções](01_linguagem_vb/08_acesso_bd/stored_procedures.md)
+- [Transações e controle de consistência de dados](01_linguagem_vb/08_acesso_bd/transacoes.md)
+- [Mapeamento objeto-relacional (ORM) com Entity Framework](01_linguagem_vb/08_acesso_bd/entity_framework.md)
 
 #### Programação Assíncrona
 
@@ -83,13 +87,17 @@
 - [Serialização de Objetos](01_linguagem_vb/diversos/serializacao.md)
 - [Logging e Debug](01_linguagem_vb/diversos/logging_e_debug.md)
 
+## Windows Forms
+
+- [Introdução](02_windows_forms/introducao.md)
+- [Controles básicos: `Button`, `TextBox`, `Label`](02_windows_forms/controles_basicos.md)
+
 ## Úteis
 
 - [Glossário Geral](A_uteis/glossario.md)
 - [Dicas](A_uteis/dicas.md)
 - [Conceitos Gerais](A_uteis/conceitos.md)
 - [Arquiteturas](A_uteis/arquitetura.md)
-- [Regions](A_uteis/region.md)
 
 ## Exemplos
 
@@ -97,4 +105,5 @@
 
 - [Hello World](B_exemplos/01_introducao/hello_world.md)
 - [Inventário Simplificado](B_exemplos/01_introducao/inventario_simplificado.md)
-
+- [Calculadora de Salário com Impostos Fixos](B_exemplos/01_introducao/calculadora_salario_imp_fixos.md)
+- [Calculadora de Desempenho de Viagem](B_exemplos/01_introducao/calculadora_desempenho_viagem.md)

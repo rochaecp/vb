@@ -12,6 +12,51 @@ Public Class Pessoa
 End Class
 ~~~
 
+~~~vb
+Public Class Produto
+    ' Campo privado para armazenar o valor da propriedade
+    Private precoValue As Decimal
+
+    ' Propriedade pública para acessar e modificar o preço
+    Public Property Preco() As Decimal
+        Get
+            Return precoValue
+        End Get
+        Set(ByVal value As Decimal)
+            ' Validação: o preço não pode ser negativo
+            If value >= 0 Then
+                precoValue = value
+            Else
+                Throw New ArgumentException("O preço não pode ser negativo.")
+            End If
+        End Set
+    End Property
+End Class
+
+
+'utilizando
+Module Module1
+    Sub Main()
+        Dim p As New Produto()
+
+        ' Definindo o preço usando a propriedade
+        Try
+            p.Preco = 100D
+            Console.WriteLine("Preço definido com sucesso: " & p.Preco)
+        Catch ex As ArgumentException
+            Console.WriteLine(ex.Message)
+        End Try
+
+        ' Tentando definir um preço negativo
+        Try
+            p.Preco = -50D
+        Catch ex As ArgumentException
+            Console.WriteLine("Erro: " & ex.Message)
+        End Try
+    End Sub
+End Module
+~~~
+
 ## Métodos
 
 - São funções ou sub-rotinas que definem ações que um objeto pode realizar. 

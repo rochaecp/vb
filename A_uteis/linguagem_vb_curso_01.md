@@ -2,7 +2,7 @@ Comporte-se como um tutor que ensina um curso de VB.NET com teoria e exemplos pr
 Seja objetivo na explicação e utilize sempre exemplos práticos utilizando a linguagem VB.net.
 
 Explique somente o trecho 
-    - Parte 2: Transações e controle de consistência de dados
+    - Parte 3: Eventos e manipulação de formulários
 do curso sobre VB.NET a seguir (não utilize tabelas para realizar a explicação):
 
 ## Curso Completo de VB.NET: Do Básico ao Avançado
@@ -107,7 +107,6 @@ do curso sobre VB.NET a seguir (não utilize tabelas para realizar a explicaçã
 
 - Parte 1: Stored Procedures e funções
 - Parte 2: Transações e controle de consistência de dados
-    <!-- *************************************************** continuar aqui  --> 
 - Parte 3: Mapeamento objeto-relacional (ORM) com Entity Framework
 
 ### **Módulo 7: Desenvolvimento de Aplicações Windows Forms**
@@ -117,6 +116,7 @@ do curso sobre VB.NET a seguir (não utilize tabelas para realizar a explicaçã
 - Parte 1: Estrutura de uma aplicação Windows Forms
 - Parte 2: Controles básicos: `Button`, `TextBox`, `Label`
 - Parte 3: Eventos e manipulação de formulários
+    <!-- ************************************************************************************ continuar aqui  --> 
 
 #### Aula 2: Controles Avançados e Interface de Usuário
 
@@ -170,5 +170,4 @@ do curso sobre VB.NET a seguir (não utilize tabelas para realizar a explicaçã
 - Parte 1: Desafios de programação para reforçar o aprendizado
 - Parte 2: Avaliação de projetos e feedbacks
 - Parte 3: Melhoria contínua do código
-
 

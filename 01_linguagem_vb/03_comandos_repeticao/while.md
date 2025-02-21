@@ -50,3 +50,15 @@ Do Until numero > 5
     numero += 1
 Loop
 ~~~
+
+# Do ... Loop
+
+~~~vb
+Dim salarioBruto As Double = 0
+
+Do
+    Console.Write("Informe o salário bruto do funcionário: ")
+    If Double.TryParse(Console.ReadLine(), salarioBruto) AndAlso salarioBruto >= 0 Then Exit Do
+    Console.WriteLine("Erro. Informe um valor válido.")
+Loop
+~~~

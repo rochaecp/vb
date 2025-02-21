@@ -204,8 +204,8 @@ Console.WriteLine(sb.ToString())
 
 ## Caracteres de Escape
 
-- vbCrLf: Quebra de linha
-- vbTab: tab
+- `vbCrLf`: Quebra de linha - `Environment.NewLine` é mais indicado
+- `vbTab`: tab
 
 ## Verificar Conteúdo 
 
