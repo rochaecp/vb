@@ -1,4 +1,4 @@
-# Exemplo - Aplicação de Console em VB.NET - Hello World
+# Exemplo: Aplicação de Console em VB.NET - Hello World
 
 - Em VB.NET, o ponto de entrada de uma aplicação de console é o método `Main`. 
 - Ele pode ser definido tanto em uma Classe quanto em um Módulo, com algumas diferenças importantes em relação à estrutura e ao uso.

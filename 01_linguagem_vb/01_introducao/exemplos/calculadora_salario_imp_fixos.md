@@ -1,6 +1,6 @@
-# Exemplo - Calculadora de Salário com Impostos Fixos
+# Exemplo: Calculadora de Salário com Impostos Fixos
 
-- Implementação do exercício:
+- Aplicativo de **Console** em VB.NET como solução para o exercício:
     - [Calculadora de Salário com Impostos Fixos](https://github.com/rochaecp/engsw/blob/main/B_exercicios/01_introducao/constantes.md#1-calculadora-de-sal%C3%A1rio-com-impostos-fixos)
 
 #### Versão sem bônus

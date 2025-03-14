@@ -17,6 +17,12 @@
 - [Números Aleatórios](01_linguagem_vb/01_introducao/random.md)
 - [Datas](01_linguagem_vb/01_introducao/datas.md)
 - [Funções e Subrotinas ](01_linguagem_vb/01_introducao/function_e_sub.md)
+- **Exemplos:**
+    - [Hello World](01_linguagem_vb/01_introducao/exemplos/hello_world.md)
+    - [Inventário Simplificado](01_linguagem_vb/01_introducao/exemplos/inventario_simplificado.md)
+    - [Calculadora de Salário com Impostos Fixos](01_linguagem_vb/01_introducao/exemplos/calculadora_salario_imp_fixos.md)
+    - [Calculadora de Desempenho de Viagem](01_linguagem_vb/01_introducao/exemplos/calculadora_desempenho_viagem.md)
+    - [Sistema de Verificação de Elegibilidade para Votação](01_linguagem_vb/01_introducao/exemplos/elegibilidade_votacao.md)
 
 #### Comandos Condicionais
 
@@ -46,6 +52,7 @@
 - [Propriedades e Métodos](01_linguagem_vb/05_poo/propriedades_metodos.md)
 - [Métodos Acessadores e Modificadores](01_linguagem_vb/05_poo/getters_setters.md)
 - [Modificadores de Acesso](01_linguagem_vb/05_poo/modificadores_acesso.md)
+<!-- - [Relacionamentos entre Classes - Associação Simples, Agregação, ...](01_linguagem_vb/05_poo/heranca.md) -->
 - [Herança](01_linguagem_vb/05_poo/heranca.md)
 - [Sobrescrita](01_linguagem_vb/05_poo/sobrescrita.md)
 - [Polimorfismo, Classes Abstratas e Interfaces](01_linguagem_vb/05_poo/polimorfismo.md)
@@ -90,7 +97,16 @@
 ## Windows Forms
 
 - [Introdução](02_windows_forms/introducao.md)
-- [Controles básicos: `Button`, `TextBox`, `Label`](02_windows_forms/controles_basicos.md)
+- [Controles: `Button`, `TextBox`, `Label`](02_windows_forms/controles_basicos.md)
+- [Controles: `DataGridView`, `TreeView`, `ListView`](02_windows_forms/controles_avancados.md)
+- [Eventos](02_windows_forms/eventos.md)
+- [Manipulação de Formulários](02_windows_forms/eventos.md)
+- [Trabalhando com menus](02_windows_forms/menus.md)
+- [Trabalhando com Diálogos](02_windows_forms/dialogos.md)
+- **Exemplos:**
+    - [Criando um Formulário Simples em VB.NET (Windows Forms)](02_windows_forms/exemplos/criando_form_simples.md)
+    - [Botão para exibir texto digitado](02_windows_forms/exemplos/botao_exibe_texto_digitado.md)
+    - [Sistema de Verificação de Elegibilidade para Votação](02_windows_forms/exemplos/elegibilidade_votacao.md)
 
 ## Úteis
 
@@ -98,12 +114,3 @@
 - [Dicas](A_uteis/dicas.md)
 - [Conceitos Gerais](A_uteis/conceitos.md)
 - [Arquiteturas](A_uteis/arquitetura.md)
-
-## Exemplos
-
-#### Introdução
-
-- [Hello World](B_exemplos/01_introducao/hello_world.md)
-- [Inventário Simplificado](B_exemplos/01_introducao/inventario_simplificado.md)
-- [Calculadora de Salário com Impostos Fixos](B_exemplos/01_introducao/calculadora_salario_imp_fixos.md)
-- [Calculadora de Desempenho de Viagem](B_exemplos/01_introducao/calculadora_desempenho_viagem.md)

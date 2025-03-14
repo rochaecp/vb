@@ -1,6 +1,6 @@
-# Exercícios - Calculadora de Desempenho de Viagem
+# Exemplo: Calculadora de Desempenho de Viagem
 
-- Implementação do Exercício
+- Aplicativo de **Console** em VB.NET como solução para o exercício:
     - [Calculadora de Desempenho de Viagem](https://github.com/rochaecp/engsw/blob/main/B_exercicios/01_introducao/operadores_aritmeticos.md#1-calculadora-de-desempenho-de-viagem)
 
 ~~~vb

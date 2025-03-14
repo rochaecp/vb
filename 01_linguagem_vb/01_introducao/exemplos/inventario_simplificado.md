@@ -1,6 +1,6 @@
-# Exemplo - Inventário Simplificado
+# Exemplo: Inventário Simplificado
 
-- Implementação do exercício: 
+- Aplicativo de **Console** em VB.NET como solução para o exercício:
     - [Sistema de Controle de Inventário Simplificado](https://github.com/rochaecp/engsw/blob/main/B_exercicios/01_introducao/variaveis.md#1-sistema-de-controle-de-invent%C3%A1rio-simplificado)
 
 #### Implementação utilizando programação estruturada
