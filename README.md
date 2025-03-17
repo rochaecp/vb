@@ -17,12 +17,6 @@
 - [Números Aleatórios](01_linguagem_vb/01_introducao/random.md)
 - [Datas](01_linguagem_vb/01_introducao/datas.md)
 - [Funções e Subrotinas ](01_linguagem_vb/01_introducao/function_e_sub.md)
-- **Exemplos:**
-    - [Hello World](01_linguagem_vb/01_introducao/exemplos/hello_world.md)
-    - [Inventário Simplificado](01_linguagem_vb/01_introducao/exemplos/inventario_simplificado.md)
-    - [Calculadora de Salário com Impostos Fixos](01_linguagem_vb/01_introducao/exemplos/calculadora_salario_imp_fixos.md)
-    - [Calculadora de Desempenho de Viagem](01_linguagem_vb/01_introducao/exemplos/calculadora_desempenho_viagem.md)
-    - [Sistema de Verificação de Elegibilidade para Votação](01_linguagem_vb/01_introducao/exemplos/elegibilidade_votacao.md)
 
 #### Comandos Condicionais
 
@@ -103,10 +97,7 @@
 - [Manipulação de Formulários](02_windows_forms/eventos.md)
 - [Trabalhando com menus](02_windows_forms/menus.md)
 - [Trabalhando com Diálogos](02_windows_forms/dialogos.md)
-- **Exemplos:**
-    - [Criando um Formulário Simples em VB.NET (Windows Forms)](02_windows_forms/exemplos/criando_form_simples.md)
-    - [Botão para exibir texto digitado](02_windows_forms/exemplos/botao_exibe_texto_digitado.md)
-    - [Sistema de Verificação de Elegibilidade para Votação](02_windows_forms/exemplos/elegibilidade_votacao.md)
+- [Design Responsivo](02_windows_forms/design_responsivo.md)
 
 ## Úteis
 
@@ -114,3 +105,19 @@
 - [Dicas](A_uteis/dicas.md)
 - [Conceitos Gerais](A_uteis/conceitos.md)
 - [Arquiteturas](A_uteis/arquitetura.md)
+
+## Exemplos
+
+#### Aplicações de Console
+
+- [Hello World](B_exemplos/console_apps/hello_world.md)
+- [Inventário Simplificado](B_exemplos/console_apps/inventario_simplificado.md)
+- [Calculadora de Salário com Impostos Fixos](B_exemplos/console_apps/calculadora_salario_imp_fixos.md)
+- [Calculadora de Desempenho de Viagem](B_exemplos/console_apps/calculadora_desempenho_viagem.md)
+- [Sistema de Verificação de Elegibilidade para Votação](B_exemplos/console_apps/elegibilidade_votacao.md)
+
+#### Aplicações com Windows Forms
+
+- [Criando um Formulário Simples em VB.NET](B_exemplos/windows_forms/criando_form_simples.md)
+- [Botão para exibir texto digitado](B_exemplos/windows_forms/botao_exibe_texto_digitado.md)
+- [Sistema de Verificação de Elegibilidade para Votação](B_exemplos/windows_forms/elegibilidade_votacao.md)
