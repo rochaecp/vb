@@ -2,7 +2,7 @@ Comporte-se como um tutor que ensina um curso de VB.NET com teoria e exemplos pr
 Seja objetivo na explicação e utilize sempre exemplos práticos utilizando a linguagem VB.net.
 
 Explique somente o trecho 
-    - Parte 4: Técnicas de design para UI responsiva
+    - Parte 2: Criando instaladores com o Visual Studio
 do curso sobre VB.NET a seguir (não utilize tabelas para realizar a explicação):
 
 ## Curso Completo de VB.NET: Do Básico ao Avançado
@@ -123,12 +123,12 @@ do curso sobre VB.NET a seguir (não utilize tabelas para realizar a explicaçã
 - Parte 2: Trabalhando com menus
 - Parte 3: Trabalhando com diálogos
 - Parte 4: Técnicas de design para UI responsiva
-    <!-- ************************************************************************************ continuar aqui  --> 
 
 #### Aula 3: Deploy de Aplicações Windows
 
 - Parte 1: Preparando a aplicação para distribuição
 - Parte 2: Criando instaladores com o Visual Studio
+    <!-- ************************************************************************************ continuar aqui  --> 
 - Parte 3: Considerações de compatibilidade e manutenção
 
 ### **Módulo 8: Trabalhando com APIs e Serviços Web**

@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "59598b8da3a56d5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d71169848c9f273",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "852a4278878f3443",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nova aba"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd41da9ddb9b3ae7",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9210e8b90e9678e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7dd62943083e77ef",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "198ff5e002be3ea2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "0033bd7620d7954b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "25e905bf8352fca0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ec8ea2cfc333daa1",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8439f16f0a7abb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cade1af4328915ec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "df3f53c12c8cf569",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2d1bd1894957666c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a6ed82778cd96133",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 411.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "852a4278878f3443",
+  "lastOpenFiles": [
+    "README.md",
+    "01_linguagem_vb/01_introducao/casting.md",
+    "01_linguagem_vb/01_introducao/strings.md",
+    "01_linguagem_vb/01_introducao/random.md",
+    "01_linguagem_vb/01_introducao/math.md",
+    "01_linguagem_vb/01_introducao/function_e_sub.md",
+    "01_linguagem_vb/01_introducao/constantes.md",
+    "01_linguagem_vb/01_introducao/variaveis.md",
+    "01_linguagem_vb/01_introducao/tipos.md",
+    "01_linguagem_vb/01_introducao/console.md",
+    "01_linguagem_vb/01_introducao/region.md",
+    "01_linguagem_vb/01_introducao/comentarios.md",
+    "csharp.md",
+    "01_equipe_nfe/2025_tarefas.md",
+    "01_equipe_nfe/2025_daily.md",
+    "01_equipe_nfe/monitorias_nfe.md"
+  ]
+}

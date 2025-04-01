@@ -1,6 +1,6 @@
 # Visual Basic .NET
 
-## Linguagem VB.NET
+## **Linguagem VB.NET**
 
 #### Introdução
 
@@ -46,7 +46,6 @@
 - [Propriedades e Métodos](01_linguagem_vb/05_poo/propriedades_metodos.md)
 - [Métodos Acessadores e Modificadores](01_linguagem_vb/05_poo/getters_setters.md)
 - [Modificadores de Acesso](01_linguagem_vb/05_poo/modificadores_acesso.md)
-<!-- - [Relacionamentos entre Classes - Associação Simples, Agregação, ...](01_linguagem_vb/05_poo/heranca.md) -->
 - [Herança](01_linguagem_vb/05_poo/heranca.md)
 - [Sobrescrita](01_linguagem_vb/05_poo/sobrescrita.md)
 - [Polimorfismo, Classes Abstratas e Interfaces](01_linguagem_vb/05_poo/polimorfismo.md)
@@ -88,7 +87,7 @@
 - [Serialização de Objetos](01_linguagem_vb/diversos/serializacao.md)
 - [Logging e Debug](01_linguagem_vb/diversos/logging_e_debug.md)
 
-## Windows Forms
+## **Windows Forms**
 
 - [Introdução](02_windows_forms/introducao.md)
 - [Controles: `Button`, `TextBox`, `Label`](02_windows_forms/controles_basicos.md)
@@ -98,15 +97,16 @@
 - [Trabalhando com menus](02_windows_forms/menus.md)
 - [Trabalhando com Diálogos](02_windows_forms/dialogos.md)
 - [Design Responsivo](02_windows_forms/design_responsivo.md)
+- [Deploy de Aplicações Windows](02_windows_forms/deploy.md)
 
-## Úteis
+## **Úteis**
 
 - [Glossário Geral](A_uteis/glossario.md)
 - [Dicas](A_uteis/dicas.md)
 - [Conceitos Gerais](A_uteis/conceitos.md)
 - [Arquiteturas](A_uteis/arquitetura.md)
 
-## Exemplos
+## **Exemplos**
 
 #### Aplicações de Console
 
