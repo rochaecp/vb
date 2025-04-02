@@ -16,7 +16,7 @@
 - [Math](01_linguagem_vb/01_introducao/math.md)
 - [Números Aleatórios](01_linguagem_vb/01_introducao/random.md)
 - [Datas](01_linguagem_vb/01_introducao/datas.md)
-- [Funções e Subrotinas ](01_linguagem_vb/01_introducao/function_e_sub.md)
+- [Funções e Sub-rotinas ](01_linguagem_vb/01_introducao/function_e_sub.md)
 
 #### Comandos Condicionais
 
