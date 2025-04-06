@@ -217,3 +217,26 @@ If texto.Contains("VB.NET") Then
     Console.WriteLine("A palavra 'VB.NET' foi encontrada!")
 End If
 ~~~
+
+## Sobrescrevendo o método ToString()
+
+```vb
+Public Class Program
+    Public Shared Sub Main()
+        Dim p As New Pessoa()
+        p.Nome = "teste"
+        p.Idade = 33
+
+        Console.WriteLine(p) ' chama automaticamente o método ToString
+    End Sub
+End Class
+
+Public Class Pessoa
+    Public Property Nome As String
+    Public Property Idade As String
+
+    Public Overrides Function ToString() As String
+        Return $"{Me.Nome} - {Me.Idade}"
+    End Function
+End Class
+```
